@@ -217,7 +217,7 @@
       color: #329998 !important;
     }
     #fh5co-header #navbar li a {
-      color: rgba(0, 0, 0, 0.5) !important;
+      color: rgba(7, 7, 7, 0.5) !important;
       -webkit-transition: 0.3s;
       -o-transition: 0.3s;
       transition: 0.3s;
@@ -245,7 +245,7 @@
   }
   #fh5co-header #navbar li a {
     font-family: "Source Sans Pro", Arial, sans-serif;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(12, 12, 12, 0.5);
     position: relative;
     font-size: 19px;
     font-weight: 300;
@@ -262,8 +262,8 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, 0.5);
-    visibility: hidden;
+    background-color: rgba(20, 136, 82, 0.5);
+    visibility: visible;
     -webkit-transform: scaleX(0);
     -moz-transform: scaleX(0);
     -ms-transform: scaleX(0);
@@ -276,7 +276,7 @@
     transition: all 0.3s ease-in-out 0s;
   }
   #fh5co-header #navbar li a:hover {
-    color: #fff;
+    color: rgb(2, 2, 2);
   }
   #fh5co-header #navbar li a:hover span:before {
     visibility: visible;
@@ -289,7 +289,7 @@
   #fh5co-header #navbar li.active a {
     background: transparent;
     background: none;
-    color: #fff;
+    color: rgb(0, 0, 0);
   }
   #fh5co-header #navbar li.active a span:before {
     visibility: visible;
@@ -302,7 +302,7 @@
     font-size: 30px;
     font-weight: 700;
     padding-left: 0;
-    color: #fff;
+    color: rgb(11, 144, 89);
   }
   #fh5co-header.navbar-fixed-top {
     position: fixed !important;
