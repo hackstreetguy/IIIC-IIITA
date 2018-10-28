@@ -87,7 +87,16 @@
 .intro {
 	margin-bottom: -250px;
 }
-
+.why-button {
+	color : white;
+	text-decoration: none;
+}
+.why-button:hover {
+	text-decoration: none;
+}
+.events {
+	z-index: 2;
+}
 </style>
 	</head>
 	<body>
@@ -104,9 +113,10 @@
 		          <ul class="nav navbar-nav navbar-right">
 		            <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
 					<li><a href="#" data-nav-section="intro"><span>About</span></a></li>
-					<li><a href="why.html"><span>Why IIIC?<span></a></li>
+					<li><a href="#" id="why"><span>Why IIIC?<span></a></li>
 		            <li><a href="#" data-nav-section="testimonials"><span>Testimonials</span></a></li>
-		            <li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>
+					<li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>
+					<li><a href="#" id="events"><span>Events</span></a></li>
 		          </ul>
 		        </div>
 			    </nav>
@@ -183,6 +193,7 @@
 												IIIC, a Business incubator is set up under the aegis of IIITA catalyzed and supported by the department of Electronics and Technology under the Startup India project by the Govt. of India.
 										</h3>
 									</p>
+									
 							</div>
 						</div>
 					</div>
@@ -617,7 +628,14 @@
 	<script src="js/google_map.js"></script>
 
 
-
+	<script>
+		document.getElementById("events").onclick = function () {
+    location.href = "why.html";
+};
+document.getElementById("why").onclick = function () {
+    location.href = "why.html";
+};
+</script>
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
 
