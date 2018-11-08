@@ -92,13 +92,14 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                   <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#" id="home" data-nav-section="home"><span>Home</span></a></li>
-                    <li><a href="#" id="about" data-nav-section="intro"><span>About</span></a></li>
-                    <li><a href="#" id="why" data-nav-section="why"><span>Why IIIC?<span></a></li>
-                    <li><a href="#" id="testi" data-nav-section="testimonials"><span>Testimonials</span></a></li>
-                    <li><a href="#" id="contact" data-nav-section="contact"><span>Contact</span></a></li>
-                    <li><a href="#" id="events"><span>Events</span></a></li>
-                  </ul>
+		            <li class="active"><a href="#" id="home" data-nav-section="home"><span>Home</span></a></li>
+					<li><a href="#" id="why"><span>Why IIIC?<span></a></li>
+					<li><a href="#" id="events"><span>Events</span></a></li>
+		            <li><a href="#" id="apply"><span>Apply</span></a></li>
+					<li><a href="#" id="gap" data-nav-section="intro"><span>Got A Problem</span></a></li>		            
+					<li><a href="#" id="pdc" data-nav-section="intro"><span>Product Dev</span></a></li>		            
+					<li><a href="#" id="contact" data-nav-section="contact"><span>Contact</span></a></li>
+		          </ul>
                 </div>
                 </nav>
               <!-- </div> -->
@@ -275,17 +276,20 @@
 document.getElementById("why").onclick = function () {
     location.href = "why.html";
 };
+document.getElementById("apply").onclick = function () {
+    location.href = "apply.html";
+};
 document.getElementById("home").onclick = function () {
     location.href = "index.html";
 };
-document.getElementById("about").onclick = function () {
-    location.href = "index.html";
+document.getElementById("gap").onclick = function () {
+    location.href = "gotaproblem.html";
 };
 document.getElementById("contact").onclick = function () {
     location.href = "index.html";
 };
-document.getElementById("testi").onclick = function () {
-    location.href = "index.html";
+document.getElementById("pdc").onclick = function () {
+    location.href = "pdc.html";
 };
 
 </script>
