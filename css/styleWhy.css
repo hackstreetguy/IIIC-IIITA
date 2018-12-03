@@ -21,6 +21,8 @@
     background: #fff;
     height: 100%;
     position: relative;
+      max-width: 100%;
+    overflow-x: hidden;
   }
   
   a {
@@ -1355,7 +1357,7 @@
   .js .to-animate,
   .js .to-animate-2,
   .js .single-animate {
-    opacity: 0;
+    opacity: 1;
   }
   
   @media screen and (max-width: 480px) {
@@ -1399,5 +1401,36 @@
     animation-fill-mode: both;
   }
   
+   @media screen and (min-width: 987px){
+    #eventsmedia{
+           padding: 15px; 
+           margin: 100px auto auto 230px; 
+           width: 100%;
+    }
+    
+  } 
+   @media screen and (min-width: 990px) and (max-width:1450px){
+    #eventsmedia{
+           padding: 15px; 
+           margin: 100px auto auto 160px; 
+           width: 100%;
+    }
+    
+  } 
+  @media screen and (min-width: 987px){
+    #public{
+      margin: 100px -475px auto auto; 
+      padding: 15px; 
+      width: 100%;
+    }
+  }
+    @media screen and (min-width: 990px) and (max-width:1450px){
+    #public{
+           padding: 15px; 
+           margin: 100px -310px auto auto; 
+           width: 100%;
+    }
+    
+  }
   /*# sourceMappingURL=style2.css.map */
   
