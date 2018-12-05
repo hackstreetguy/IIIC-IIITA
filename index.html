@@ -70,14 +70,19 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+ crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+ crossorigin="anonymous"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 <style>
-.nav-brand {
-	font-size: 40px;
-}
+/* .nav-brand {
+	height: 20px;
+	width: 20px;
+} */
 .main-logo {
 	height: 100px;
 }
@@ -107,16 +112,29 @@
 		        <div class="navbar-header">
 		        	<!-- Mobile Toggle Menu Button -->
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-				 <a class="navbar-brand" href="index.html"><div class="nav-brand">IIIC</div></a> 
+<div class="nav-brand"><a class="navbar-brand" href="index.html"><img src="images/iiic logo.png" 
+		 width="40" height="40" alt=""></a></div>
 		        </div>
 		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right">
 		            <li class="active"><a href="#" id="home" data-nav-section="home"><span>Home</span></a></li>
 					<li><a href="#" id="why"><span>Why IIIC?<span></a></li>
 					<li><a href="#" id="events"><span>Events</span></a></li>
-		            <li><a href="#" id="apply"><span>Apply</span></a></li>
+					<li><a href="#" id="apply"><span>Apply</span></a></li>
 					<li><a href="#" id="gap" data-nav-section="intro"><span>Got A Problem</span></a></li>		            
-					<li><a href="#" id="pdc" data-nav-section="intro"><span>Product Dev</span></a></li>		            
+					<li><a href="#" id="pdc" data-nav-section="intro"><span>Product Dev</span></a></li>
+				
+<li class="nav-item dropdown">
+	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+	 aria-expanded="false">
+		Team 
+	</a>
+	<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+<li><a id="fcteam" class="dropdown-item" href="#" data-nav-section="intro"><span>Faculty Team</span></a></li>
+<li><a id="stdteam" class="dropdown-item" href="#" data-nav-section="intro"><span>Student Team</span></a></li>
+		<!-- <a class="dropdown-item" href="#">Something else here</a> -->
+	</ul>
+</li>
 					<li><a href="#" id="contact" data-nav-section="contact"><span>Contact</span></a></li>
 		          </ul>
 		        </div>
@@ -144,6 +162,19 @@
 	<section data-section="home" id="fh5co-intro">
 		<div class="container intro">
 			<div class="row row-bottom-padded-lg">
+<div class="fh5co-block to-animate" style="background-image: url(images/img_10.jpg);">
+	<div class="overlay-darker"></div>
+	<div class="overlay"></div>
+	<div class="fh5co-text">
+		<i class="fh5co-intro-icon icon-rocket"></i>
+		<h2>IDEATE</h2>
+		<p>This process begins as soon as an idea strikes the creation. Pitching, prototyping, brainstorming, brainwriting
+			are a few popular ideation techniques. The expert who has reviewed the brief of the idea pitched to him, now is able
+			to completely comprehend the exposure and complexity of the idea. This will result in a more scoped and in- depth
+			core version of the prototype.</p>
+		<!-- <p><a href="#" class="btn btn-primary">Why Us?</a></p> -->
+	</div>
+	</div>
 				<div class="fh5co-block to-animate" style="background-image: url(images/img_7.jpg);">
 					<div class="overlay-darker"></div>
 					<div class="overlay"></div>
@@ -164,16 +195,7 @@
 						<!-- <p><a href="#" class="btn btn-primary">Click Me</a></p> -->
 					</div>
 				</div>
-				<div class="fh5co-block to-animate" style="background-image: url(images/img_10.jpg);">
-					<div class="overlay-darker"></div>
-					<div class="overlay"></div>
-					<div class="fh5co-text">
-						<i class="fh5co-intro-icon icon-rocket"></i>
-						<h2>IDEATE</h2>
-						<p>This process begins as soon as an idea strikes the creation. Pitching, prototyping, brainstorming, brainwriting are a few popular ideation techniques. The expert who has reviewed the brief of the idea pitched to him, now is able to completely comprehend the exposure and complexity of the idea. This will result in a more scoped and in- depth core version of the prototype.</p>
-						<!-- <p><a href="#" class="btn btn-primary">Why Us?</a></p> -->
-					</div>
-				</div>
+				
 			</div>
 			
 		</div>
@@ -185,7 +207,7 @@
 						<h2 class=" left-border to-animate">WHO ARE WE?</h2>
 						<div class="row">
 							<div class="col-md-8 subtext to-animate">
-								<p><h3>'The smallest company in the world can look as large as the biggest company on the web'- Steve Jobs IIIC, formally known as IIITA Info-Communication Incubation Center is a one-stop platform for individuals with creative minds and innovating ideas to come up and fulfill their dreams and aspirations to become successful future entrepreneurs. After all, 'An entrepreneur isn't someone who owns a business, it's someone who makes things happen.' 
+								<p><h3>'The smallest company in the world can look as large as the biggest company on the web'- Steve Jobs. <br><br> IIIC, formally known as IIITA Info-Communication Incubation Center is a one-stop platform for individuals with creative minds and innovating ideas to come up and fulfill their dreams and aspirations to become successful future entrepreneurs. <br><br> After all, 'An entrepreneur isn't someone who owns a business, it's someone who makes things happen.' 
 										- Tim Ferriss. </h3>
 									</p>
 									
@@ -487,7 +509,7 @@
 		</div>
 	</section>
 	
-	<section id="fh5co-counters" style="background-image: url(images/full_image_1.jpg);" data-stellar-background-ratio="0.5">
+	<!-- <section id="fh5co-counters" style="background-image: url(images/full_image_1.jpg);" data-stellar-background-ratio="0.5">
 		<div class="fh5co-overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -526,7 +548,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<section id="fh5co-contact" data-section="contact">
 		<div class="container">
@@ -540,16 +562,21 @@
 					</div>
 				</div>
 			</div>
-			<div class="row row-bottom-padded-md">
+			<div class="row row-bottom-padded-md" id="cntct">
 				<div class="col-md-6 to-animate">
 					<h3>Contact Info</h3>
 					<ul class="fh5co-contact-info">
 						<li class="fh5co-contact-address ">
 							<i class="icon-home"></i>
-							INDIAN INSTITUTE OF INFORMATION TECHNOLOGY,ALLAHABAD
+							IIIT Rd, Near Boys Hostel, Devghat, Jhalwa,
+							Allahabad, Uttar Pradesh 211015
+							Indian Institute of Information Technology Allahabad.<br>
+							Dr. Rahul Kala - Faculty Incharge
+							<li><i class="icon-phone"></i> +91-7521050744</li>
 						</li>
-						<li><i class="icon-phone"></i> (123) 465-6789</li>
-						<li><i class="icon-envelope"></i>iiic@iiita.ac.in</li>
+<li><i class="icon-envelope"></i>rkala@iiita.ac.in <br> iiic@iiita.ac.in</li>
+						<!-- <li><i class="icon-envelope"></i>iiic@iiita.ac.in</li> -->
+
 						<li><i class="icon-globe"></i> <a href="https://iiic.iiita.ac.in/" target="_blank">https://iiic.iiita.ac.in</a></li>
 					</ul>
 				</div>
@@ -580,7 +607,7 @@
 
 			</div>
 		</div>
-		<div id="map" class="to-animate"></div>
+		<!-- <div id="map" class="to-animate"></div> -->
 	</section>
 	
 	
@@ -590,16 +617,22 @@
 		<div class="container">
 			<div class="footer" style=" margin-top : 20px;">
 				<div class="col-md-12 text-center">
-						<p>&copy; INFO COMMUNICATION INCUBATION CENTER. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">IIIC</a> </p>
+						<p>&copy; INFO COMMUNICATION INCUBATION CENTER. All Rights Reserved. <br>Created by Web Team IIIC </p>
 					
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<ul class="social social-circle">
-						<li><a href="#"><i class="icon-twitter"></i></a></li>
+						<!-- <li><a href="#"><i class="icon-twitter"></i></a></li>
 						<li><a href="#"><i class="icon-facebook"></i></a></li>
-						<li><a href="#"><i class="icon-youtube"></i></a></li>
+						<li><a href="#"><i class="icon-youtube"></i></a></li> -->
+<li>
+	<a href="https://www.facebook.com/pg/iiicallahabad/about/?ref=page_internal" target="_blank"><i class="icon-facebook"></i></a>
+</li>
+<li>
+	<a href="https://www.linkedin.com/company/iiicallahabad/" target="_blank"><i class="icon-linkedin"></i></a>
+</li>
 					</ul>
 				</div>
 			</div>
@@ -646,10 +679,16 @@ document.getElementById("gap").onclick = function () {
     location.href = "gotaproblem.html";
 };
 document.getElementById("contact").onclick = function () {
-    location.href = "index.html";
+    location.href = "#cntct";
 };
 document.getElementById("pdc").onclick = function () {
     location.href = "pdc.html";
+};
+document.getElementById("fcteam").onclick = function () {
+location.href = "officialTeam.html";
+};
+document.getElementById("stdteam").onclick = function () {
+location.href = "coreTeam.html";
 };
 </script>
 	<!-- Main JS (Do not remove) -->
