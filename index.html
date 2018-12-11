@@ -103,6 +103,11 @@
 .events {
 	z-index: 2;
 }
+.dropdown {
+	display: none;
+	position: relative;
+}
+
 </style>
 	</head>
 	<body>
@@ -125,17 +130,12 @@
 					<li><a href="#" id="gap" data-nav-section="intro"><span>Got A Problem</span></a></li>		            
 					<li><a href="#" id="pdc" data-nav-section="intro"><span>Product Dev</span></a></li>
 				
-<li class="nav-item dropdown">
-	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-	 aria-expanded="false">
-		Team 
-	</a>
-	<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-<li><a id="fcteam" class="dropdown-item" href="#" data-nav-section="intro"><span>Faculty Team</span></a></li>
-<li><a id="stdteam" class="dropdown-item" href="#" data-nav-section="intro"><span>Student Team</span></a></li>
-		<!-- <a class="dropdown-item" href="#">Something else here</a> -->
-	</ul>
-</li>
+					<li class="drop"><a href="#">Team</a>
+						<ul class="dropdown">
+							<li><a href="#" id="fcteam">Official Team</a></li>
+							<li><a href="#" id="stdteam">Core Team</a></li>
+						</ul>
+					</li>
 					<li><a href="#" id="contact" data-nav-section="contact"><span>Contact</span></a></li>
 		          </ul>
 		        </div>
@@ -665,7 +665,6 @@ href
 	</footer>
 	
 
-
 	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
@@ -686,7 +685,17 @@ href
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 	<script src="js/google_map.js"></script>
 
+<script>
 
+$(".drop")
+  .mouseleave(function() {
+  $(".dropdown").hide(300);     
+});
+$(".drop")
+  .mouseover(function() {
+  $(".dropdown").show(300);
+});
+</script>
 	<script>
 		document.getElementById("events").onclick = function () {
     location.href = "events.html";
@@ -715,6 +724,8 @@ location.href = "officialTeam.html";
 document.getElementById("stdteam").onclick = function () {
 location.href = "coreTeam.html";
 };
+
+
 </script>
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
