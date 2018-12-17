@@ -16,19 +16,17 @@
 			<div class="row row-bottom-padded-sm">
 				<div class="col-md-4 col-sm-6 col-xxs-12">
 					<a href="images/work_1.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="images/work_1.jpg" alt="Image" class="img-responsive">
+						<img src="images/bizquiz.jpg" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
-						<h2>Event 1</h2>
-						<span>Branding</span>
+						<h2>BizQuiz</h2>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xxs-12">
 					<a href="images/work_2.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="images/work_2.jpg" alt="Image" class="img-responsive">
+						<img src="images/ideation.jpg" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
-						<h2>Event 2</h2>
-						<span>Web</span>
+						<h2>Ideation</h2>
 						</div>
 					</a>
 				</div>
@@ -37,19 +35,17 @@
 
 				<div class="col-md-4 col-sm-6 col-xxs-12">
 					<a href="images/work_3.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="images/work_3.jpg" alt="Image" class="img-responsive">
+						<img src="images/esummit.png" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
-						<h2>Event 3</h2>
-						<span>Web</span>
+						<h2>E-Summit</h2>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xxs-12">
 					<a href="images/work_4.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="images/work_4.jpg" alt="Image" class="img-responsive">
+						<img src="images/bplan.jpg" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
-						<h2>Event 4</h2>
-						<span>UI/UX</span>
+						<h2>B-Plan</h2>
 						</div>
 					</a>
 				</div>
@@ -58,60 +54,13 @@
 
 				<div class="col-md-4 col-sm-6 col-xxs-12">
 					<a href="images/work_5.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="images/work_5.jpg" alt="Image" class="img-responsive">
+						<img src="images/iiictalks.jpg" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
-						<h2>Event 1</h2>
-						<span>Photography</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="images/work_6.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="images/work_6.jpg" alt="Image" class="img-responsive">
-						<div class="fh5co-text">
-						<h2>Event 2</h2>
-						<span>Illustration</span>
+						<h2>IIIC Talks</h2>
 						</div>
 					</a>
 				</div>
 				
-				<div class="clearfix visible-sm-block"></div>
-
-				<div class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="images/work_7.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="images/work_7.jpg" alt="Image" class="img-responsive">
-						<div class="fh5co-text">
-						<h2>Event 3</h2>
-						<span>Web</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="images/work_8.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="images/work_8.jpg" alt="Image" class="img-responsive">
-						<div class="fh5co-text">
-						<h2>Event 4</h2>
-						<span>Sketch</span>
-						</div>
-					</a>
-				</div>
-
-				<div class="clearfix visible-sm-block"></div>
-
-				<div class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="images/work_1.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="images/work_1.jpg" alt="Image" class="img-responsive">
-						<div class="fh5co-text">
-						<h2>Event 2</h2>
-						<span>Illustration</span>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 text-center to-animate">
-					<p>* Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a></p>
-				</div>
 			</div>
 		</div>
 	</section>
