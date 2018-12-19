@@ -75,94 +75,76 @@
 
     <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
+
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+<style>
+/* .nav-brand {
+	height: 20px;
+	width: 20px;
+} */
+.main-logo {
+	height: 100px;
+}
+.fh5co-block {
+	height: 500px;
+}
+.intro {
+	margin-bottom: -250px;
+}
+.why-button {
+	color : white;
+	text-decoration: none;
+}
+.why-button:hover {
+	text-decoration: none;
+}
+.events {
+	z-index: 2;
+}
+.dropdown {
+	display: none;
+	position: relative;
+}
 
-</head>
-
-<body>
-    <header role="banner" id="fh5co-header">
-        <div class="container">
-            <!-- <div class="row"> -->
-            <nav class="navbar navbar-default">
-                <div class="navbar-header">
-                    <!-- Mobile Toggle Menu Button -->
-                    <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                        aria-controls="navbar">
-                        <i></i>
-                    </a>
-                    <div class="nav-brand">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="images/iiic_black.png" width="200" height="40" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active">
-                            <a href="#" id="home" data-nav-section="home">
-                                <span>Home</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" id="why">
-                                <span>Why IIIC?
-                                    <span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" id="events">
-                                <span>Events</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" id="applyme">
-                                <span>Apply</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" id="gap" data-nav-section="intro">
-                                <span>Got A Problem</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" id="pdc" data-nav-section="intro">
-                                <span>Product Dev</span>
-                            </a>
-                        </li>
-    
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Team
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li>
-                                    <a id="fcteam" class="dropdown-item" href="#" data-nav-section="intro">
-                                        <span>Faculty Team</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a id="stdteam" class="dropdown-item" href="#" data-nav-section="intro">
-                                        <span>Student Team</span>
-                                    </a>
-                                </li>
-                                <!-- <a class="dropdown-item" href="#">Something else here</a> -->
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#" id="contact" data-nav-section="contact">
-                                <span>Contact</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <!-- </div> -->
-        </div>
-    </header>
-    <section id="fh5co-about" data-section="about" style="padding-bottom: 0px">
+</style>
+	</head>
+	<body>
+	<header role="banner" id="fh5co-header">
+			<div class="container">
+				<!-- <div class="row"> -->
+			    <nav class="navbar navbar-default">
+		        <div class="navbar-header">
+		        	<!-- Mobile Toggle Menu Button -->
+					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+<div class="nav-brand"><a class="navbar-brand" href="index.php"><img src="images/iiic2.png" 
+		 width="60" height="60" alt=""></a></div>
+		        </div>
+		        <div id="navbar" class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav navbar-right">
+		            <li class="active"><a href="#" id="home" data-nav-section="home"><span>Home</span></a></li>
+					<li><a href="#" id="why"><span>Why IIIC?<span></a></li>
+					<li><a href="#" id="events"><span>Events</span></a></li>
+					<li><a href="#" id="apply"><span>Apply</span></a></li>
+					<li><a href="#" id="gap" ><span>Got A Problem</span></a></li>		            
+					<li><a href="#" id="pdc" ><span>Product Dev</span></a></li>
+				
+					<li class="drop"><a href="#">Team</a>
+						<ul class="dropdown">
+							<li><a href="#" id="fcteam">Official Team</a></li>
+							<li><a href="#" id="stdteam">Core Team</a></li>
+						</ul>
+					</li>
+					<li><a href="#" id="asc" ><span>Associations</span></a></li>
+					<li><a href="#" id="contact" data-nav-section="contact"><span>Contact</span></a></li>
+		          </ul>
+		        </div>
+			    </nav>
+			  <!-- </div> -->
+		  </div>
+	</header>    <section id="fh5co-about" data-section="about" style="padding-bottom: 0px">
         <div class="container-fluid" style="margin-top: 120px">
             <div class="col-md-12 section-heading text-center">
                 <h2 class="to-animate">Core Team Of IIIC</h2>
@@ -456,8 +438,9 @@
                     </li>
                     <li>
                         <a href="https://www.facebook.com/kush.mishra.969">
-                            </a>
+                            
                             <i class="icon-facebook"></i>
+                        </a>    
                     </li>
                     <li>
                         <a href="mailto:iec2017083@iiita.ac.in">
@@ -1184,37 +1167,49 @@
     <script src="js/google_map.js"></script>
 
     <script>
-        document.getElementById("events").onclick = function () {
-            location.href = "events.php";
-        };
-        document.getElementById("why").onclick = function () {
-            location.href = "why.php";
-        };
-        document.getElementById("home").onclick = function () {
-            location.href = "index.php";
-        };
-        document.getElementById("pdc").onclick = function () {
-            location.href = "pdc.php";
-        };
-        document.getElementById("contact").onclick = function () {
-            location.href = "index.html";
-        };
-        document.getElementById("applyme").onclick = function () {
-            location.href = "apply.php";
-        };
-        document.getElementById("testi").onclick = function () {
-            location.href = "index.php";
-        };
-        document.getElementById("gap").onclick = function () {
-            location.href = "gotaproblem.php";
-        };
-        document.getElementById("fcteam").onclick = function () {
-            location.href = "officialTeam.php";
-        };
-        document.getElementById("stdteam").onclick = function () {
-            location.href = "coreTeam.php";
-        };
-    </script>
+
+$(".drop")
+  .mouseleave(function() {
+  $(".dropdown").hide(300);     
+});
+$(".drop")
+  .mouseover(function() {
+  $(".dropdown").show(300);
+});
+</script>
+<script>
+		document.getElementById("events").onclick = function () {
+    location.href = "events.php";
+};
+document.getElementById("why").onclick = function () {
+    location.href = "why.php";
+};
+document.getElementById("apply").onclick = function () {
+    location.href = "apply.php";
+};
+document.getElementById("home").onclick = function () {
+    location.href = "index.php";
+};
+document.getElementById("gap").onclick = function () {
+    location.href = "gotaproblem.php";
+};
+document.getElementById("contact").onclick = function () {
+    location.href = "#cntct";
+};
+document.getElementById("pdc").onclick = function () {
+    location.href = "pdc.php";
+};
+document.getElementById("fcteam").onclick = function () {
+location.href = "officialTeam.php";
+};
+document.getElementById("stdteam").onclick = function () {
+location.href = "coreTeam.php";
+};
+document.getElementById("asc").onclick = function () {
+location.href = "associates.php";
+};
+
+</script>
 
 
     <!-- Main JS (Do not remove) -->

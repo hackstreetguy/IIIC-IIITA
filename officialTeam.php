@@ -120,8 +120,8 @@
 		        <div class="navbar-header">
 		        	<!-- Mobile Toggle Menu Button -->
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-<div class="nav-brand"><a class="navbar-brand" href="index.php"><img src="images/iiic_black.png" 
-		 width="200" height="40" alt=""></a></div>
+<div class="nav-brand"><a class="navbar-brand" href="index.php"><img src="images/iiic2.png" 
+		 width="40" height="40" alt=""></a></div>
 		        </div>
 		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right">
@@ -138,6 +138,7 @@
 							<li><a href="#" id="stdteam"style="color:black"style="color:black"style="color:black">Core Team</a></li>
 						</ul>
 					</li>
+					<li><a href="#" id="gap"style="color:black" data-nav-section="asc"><span>Associations</span></a></li>
 					<li><a href="#" id="contact" data-nav-section="contact"style="color:black"><span>Contact</span></a></li>
 		          </ul>
 		        </div>
@@ -333,7 +334,9 @@ location.href = "officialTeam.php";
 document.getElementById("stdteam").onclick = function () {
 location.href = "coreTeam.php";
 };
-
+document.getElementById("asc").onclick = function () {
+location.href = "associates.php";
+};
 
 </script>
 	<!-- Main JS (Do not remove) -->
