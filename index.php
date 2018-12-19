@@ -1,12 +1,26 @@
 <?php require("header.php"); ?>
-
+<style>
+@media screen and (max-width: 469px) {
+.main-logo{
+	width: 340px;
+	height : auto;
+}
+}
+@media screen and (max-width: 320px) {
+.main-logo{
+	width: 250px;
+	height : auto;
+}
+}
+}
+</style>
 	<section id="fh5co-home" data-section="home" style="background-image: url(images/bg/iiita1.jpg);" data-stellar-background-ratio="0.5">
 		<div class="gradient"></div>
 		<div class="container">
 			<div class="text-wrap">
 				<div class="text-inner">
 					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
+						<div id="imgfinal" class="col-md-8 col-md-offset-2">
 								<img src="images/white_iiic.png" class="main-logo to-animate">
 						</div>
 					</div>
