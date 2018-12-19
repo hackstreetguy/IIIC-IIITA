@@ -117,7 +117,7 @@
 		        <div class="navbar-header">
 		        	<!-- Mobile Toggle Menu Button -->
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-<div class="nav-brand"><a class="navbar-brand" href="index.php"><img src="images/iiic logo.png" 
+<div class="nav-brand"><a class="navbar-brand" href="index.php"><img src="images/iiic2.png" 
 		 width="40" height="40" alt=""></a></div>
 		        </div>
 		        <div id="navbar" class="navbar-collapse collapse">
