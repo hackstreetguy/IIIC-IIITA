@@ -14,6 +14,12 @@
 }
 }
 </style>
+<style> 
+      #map { 
+        height: 400px; 
+        width: 100%; 
+       } 
+    </style> 
 	<section id="fh5co-home" data-section="home" style="background-image: url(images/bg/iiita1.jpg);" data-stellar-background-ratio="0.5">
 		<div class="gradient"></div>
 		<div class="container">
@@ -133,7 +139,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-4">
+						<div class="col-md-6">
 							<div class="box-testimony">
 								<blockquote class="to-animate-2">
 									<p>&ldquo;I Am Extremely Obliged And Grateful To Get The Valuable And Esteemed Opportunity. I Hereby Confirm My Participation And Joining. I Will Send The Required Files Within The Stipulated Time. Thanks A Lot For Your Revered Cooperation And Support.&rdquo;</p>
@@ -146,7 +152,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-6">
 							<div class="box-testimony">
 								<blockquote class="to-animate-2">
 									<p>&ldquo;A Dream Doesn't Become Real With Magic,IIIC Is Standing As A Bridge In Helping Us Reach Our Dreams. It Was A Sigh Of Relief Working With Proper Guidance And Exposure With Great Ventures. The Environment Is So Healthy And Provides Confidence To Sustain As A Startup With Ease. Here Our Entrepreneurial Skills Are Moulded And Subjected To Crucial Verification Which Makes Us Understand Where We Stand Out And Lack. The Best Platform For An Entrepreneurial Ecosystem Indeed&rdquo;</p>
@@ -160,7 +166,7 @@
 							</div>
 						</div>
 		
-						<div class="col-md-4">
+						<!-- <div class="col-md-4">
 							<div class="box-testimony">
 								<blockquote class="to-animate-2">
 									<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;</p>
@@ -172,7 +178,7 @@
 									</p>
 								</div>
 							</div>
-						</div>
+						</div> -->
 						
 						
 					</div>
@@ -437,7 +443,7 @@ href
 
 			</div>
 		</div>
-		<!-- <div id="map" class="to-animate"></div> -->
+		<div id="map"></div> 
 	</section>
 	
 	

@@ -159,8 +159,12 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
 	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 	<script src="js/google_map.js"></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=&callback=myMap"></script> -->
+<script async defer 
+    src= 
+"https://maps.googleapis.com/maps/api/js?key=AIzaSyDPTexUKsT_lE0AXjvn3OeC_0lD_JEFRhY&callback=initMap"> 
+    </script>
 
 <script>
 

@@ -268,7 +268,7 @@ The product development is done with great expertise under the supervision of kn
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/magnific-popup-options.js"></script>
     <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyFfbNDc_rw3a4K9JQ6y2bjzZn0xGM56s&sensor=false"></script>
     <script src="js/google_map.js"></script>
 
     <script>
