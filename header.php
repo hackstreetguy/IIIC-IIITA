@@ -70,6 +70,7 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/airtable.browser.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
  crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -213,6 +214,28 @@ location.href = "associates.php";
 </script>
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
+// Aritable script
+<script>
+var Airtable = require('airtable');
+// Get a base ID for an instance of art gallery example
+var base = new Airtable({apiKey: 'keyohoRKRtvuB9AvU'}).base('appPmwBuDoFjkzyxy');
+
+$('#submit-contact').click(function(){
+    var name=document.getElementById("name").value;
+	var email=document.getElementById("email").value;
+	var phone=document.getElementById("phone").value;
+	var message=document.getElementById("message").value;
+   base('contact').create({
+  "name": name,
+  "email": email,
+  "phone" : phone,
+  "message" : message
+}, function(err, record) {
+    if (err) { console.error(err); return; }
+    console.log(record.getId());
+    });
+});
+</script>
 
 
 </html>

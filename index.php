@@ -436,7 +436,7 @@ href
 						<textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
 					</div>
 					<div class="form-group ">
-						<input class="btn btn-primary btn-lg" value="Send Message" type="submit">
+						<input class="btn btn-primary btn-lg" value="Send Message" id="submit-contact" type="submit">
 					</div>
 					</div>
 				</div>
