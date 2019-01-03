@@ -122,7 +122,7 @@
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
 <div class="nav-brand"><a class="navbar-brand" href="index.php"><img src="images/iiic2.png" 
 		 width="40" height="40" alt=""></a></div>
-		        </div>
+		        </div>	</body>
 		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right">
 		            <li class="active"><a href="#" id="home" style="color:black" data-nav-section="home"><span>Home</span></a></li>
@@ -323,7 +323,7 @@ document.getElementById("gap").onclick = function () {
     location.href = "gotaproblem.php";
 };
 document.getElementById("contact").onclick = function () {
-    location.href = "#cntct";
+    location.href = "index.php#cntct";
 };
 document.getElementById("pdc").onclick = function () {
     location.href = "pdc.php";

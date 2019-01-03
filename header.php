@@ -143,7 +143,7 @@
 			  <!-- </div> -->
 		  </div>
 	</header>
-
+</body>
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>
@@ -194,7 +194,7 @@ document.getElementById("gap").onclick = function () {
     location.href = "gotaproblem.php";
 };
 document.getElementById("contact").onclick = function () {
-    location.href = "#cntct";
+    location.href = "index.php#cntct";
 };
 document.getElementById("pdc").onclick = function () {
     location.href = "pdc.php";
@@ -214,5 +214,5 @@ location.href = "associates.php";
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
 
-	</body>
+
 </html>

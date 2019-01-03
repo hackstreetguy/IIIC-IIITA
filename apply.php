@@ -301,7 +301,7 @@ document.getElementById("gap").onclick = function () {
     location.href = "gotaproblem.php";
 };
 document.getElementById("contact").onclick = function () {
-    location.href = "#cntct";
+    location.href = "index.php#cntct";
 };
 document.getElementById("pdc").onclick = function () {
     location.href = "pdc.php";
