@@ -135,7 +135,7 @@
 					<li class="drop"><a href="#"style="color:black"style="color:black">Team</a>
 						<ul class="dropdown">
 							<li><a href="#" id="fcteam"style="color:black"style="color:black"style="color:black"style="color:black">Official Team</a></li>
-							<li><a href="#" id="stdteam"style="color:black"style="color:black"style="color:black">Core Team</a></li>
+							<li><a href="#" id="stdteam"style="color:black"style="color:black"style="color:black">Student Team</a></li>
 						</ul>
 					</li>
 					<li><a href="#" id="contact" data-nav-section="contact"style="color:black"><span>Contact</span></a></li>

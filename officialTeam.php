@@ -135,7 +135,7 @@
 					<li class="drop"><a href="#"style="color:black"style="color:black">Team</a>
 						<ul class="dropdown">
 							<li><a href="#" id="fcteam"style="color:black"style="color:black"style="color:black"style="color:black">Official Team</a></li>
-							<li><a href="#" id="stdteam"style="color:black"style="color:black"style="color:black">Core Team</a></li>
+							<li><a href="#" id="stdteam"style="color:black"style="color:black"style="color:black">Student Team</a></li>
 						</ul>
 					</li>
 					<li><a href="#" id="gap"style="color:black" data-nav-section="asc"><span>Associations</span></a></li>
@@ -176,7 +176,7 @@
 					<div class="fh5co-person text-center to-animate">
 						<figure><img src="images/speakers/tlahirisir.jpg" alt="Image"></figure>
 						<h3>Prof. Tapobrata Lahiri</h3>
-						<span class="fh5co-position">Chair person</span>
+						<span class="fh5co-position">Dean (Academic & Research)</span>
 						<ul class="social social-circle">
 							<!-- <li>
 								<a href="#">
@@ -212,9 +212,9 @@
                 </div>
                 <div class="col-md-3">
 					<div class="fh5co-person text-center to-animate">
-						<figure><img src="images/speakers/ranjitSir.jpg" alt="Image"></figure>
-						<h3>Dr. Ranjit</h3>
-						<span class="fh5co-position">Faculty Advisor</span>
+						<figure><img src="images/speakers/pavan.jpg" alt="Image"></figure>
+						<h3>Dr. Pavan Chakraborty</h3>
+						<span class="fh5co-position">Associate Dean (Research Development)</span>
 						<ul class="social social-circle">
 							<!-- <li>
 								<a href="#">
@@ -227,7 +227,7 @@
 								</a>
 							</li> -->
 							<li>
-								<a href="#">
+								<a href="mailto:pavan@iiita.ac.in" title="pavan@iiita.ac.in">
 									<i class="icon-envelope"></i>
 								</a>
 							</li>

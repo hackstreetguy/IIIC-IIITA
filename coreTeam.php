@@ -120,7 +120,7 @@
 		        	<!-- Mobile Toggle Menu Button -->
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
 <div class="nav-brand"><a class="navbar-brand" href="index.php"><img src="images/iiic2.png" 
-		 width="60" height="60" alt=""></a></div>
+		 width="30" height="30" alt=""></a></div>
 		        </div>
 		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right">
@@ -134,7 +134,7 @@
 					<li class="drop"><a href="#">Team</a>
 						<ul class="dropdown">
 							<li><a href="#" id="fcteam">Official Team</a></li>
-							<li><a href="#" id="stdteam">Core Team</a></li>
+							<li><a href="#" id="stdteam">Student Team</a></li>
 						</ul>
 					</li>
 					<li><a href="#" id="asc" ><span>Associations</span></a></li>
@@ -483,7 +483,7 @@
     <div class="container-fluid" style="margin-top: 40px">
         <div class="row">
             <div class="col-md-12 section-heading text-center">
-                <h2 class="to-animate">Corporate Realtions</h2>
+                <h2 class="to-animate">Corporate Relations</h2>
                 <div class="row">
                     <!-- <div class="col-md-8 col-md-offset-2 subtext to-animate">
                         <h3>Core Team of IIIC</h3>

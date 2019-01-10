@@ -133,7 +133,7 @@
 					<li class="drop"><a href="#">Team</a>
 						<ul class="dropdown">
 							<li><a href="#" id="fcteam">Official Team</a></li>
-							<li><a href="#" id="stdteam">Core Team</a></li>
+							<li><a href="#" id="stdteam">Student Team</a></li>
 						</ul>
 					</li>
 					<li><a href="#" id="asc" ><span>Associations</span></a></li>
@@ -214,7 +214,7 @@ location.href = "associates.php";
 </script>
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
-// Aritable script
+
 <script>
 var Airtable = require('airtable');
 // Get a base ID for an instance of art gallery example

@@ -139,10 +139,10 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-4">
 							<div class="box-testimony">
 								<blockquote class="to-animate-2">
-									<p>&ldquo;I Am Extremely Obliged And Grateful To Get The Valuable And Esteemed Opportunity. I Hereby Confirm My Participation And Joining. I Will Send The Required Files Within The Stipulated Time. Thanks A Lot For Your Revered Cooperation And Support.&rdquo;</p>
+									<p>&ldquo;You can't realize your dream until you don't start. IIIC gives you exposure and support. It brings budding entrepreneurs together to champion new initiatives, bring products and services to market. It realizes your dream of becoming an entrepreneur.&rdquo;</p>
 								</blockquote>
 								<div class="author to-animate">
 									<figure><img src="images/person1.jpg" alt="Person"></figure>
@@ -152,7 +152,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-4">
 							<div class="box-testimony">
 								<blockquote class="to-animate-2">
 									<p>&ldquo;A Dream Doesn't Become Real With Magic,IIIC Is Standing As A Bridge In Helping Us Reach Our Dreams. It Was A Sigh Of Relief Working With Proper Guidance And Exposure With Great Ventures. The Environment Is So Healthy And Provides Confidence To Sustain As A Startup With Ease. Here Our Entrepreneurial Skills Are Moulded And Subjected To Crucial Verification Which Makes Us Understand Where We Stand Out And Lack. The Best Platform For An Entrepreneurial Ecosystem Indeed&rdquo;</p>
@@ -166,19 +166,19 @@
 							</div>
 						</div>
 		
-						<!-- <div class="col-md-4">
+						<div class="col-md-4">
 							<div class="box-testimony">
 								<blockquote class="to-animate-2">
-									<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;</p>
+									<p>&ldquo;Attending Ideation Contest by IIIC and getting incubation was a turning point in my life. Support of IIIC and my hard-working teammates opened my eyes and mind to more possibilities that I could ever have imagined if I didn't attend tjis contest. I met many entrepreneurs and it changed my vision towards the startup world. IIIC helped me provide a kick-start. &rdquo;</p>
 								</blockquote>
 								<div class="author to-animate">
 									<figure><img src="images/person3.jpg" alt="Person"></figure>
 									<p>
-									KOMALA MARAN,MBA-PhD(pursuing)<br> <a href="" target="_blank">IIIT Allahabad</a> <span class="subtext">IEEE Member</span>
+									Aqram Ahmed,MBA-PhD(pursuing)<br> <a href="" target="_blank">IIIT Allahabad</a> <span class="subtext">IEEE Member</span>
 									</p>
 								</div>
 							</div>
-						</div> -->
+						</div>
 						
 						
 					</div>
@@ -404,9 +404,8 @@ href
 					<ul class="fh5co-contact-info">
 						<li class="fh5co-contact-address ">
 							<i class="icon-home"></i>
-							IIIT Rd, Near Boys Hostel, Devghat, Jhalwa,
-							Allahabad, Uttar Pradesh 211015
-							Indian Institute of Information Technology Allahabad.<br>
+							Indian Institute of Information Technology Allahabad<br>
+							Devghat, Jhalwa, Prayagraj-211015, UP, INDIA<br>
 							Dr. Rahul Kala - Faculty Incharge
 							<li><i class="icon-phone"></i> +91-7521050744</li>
 						</li>
