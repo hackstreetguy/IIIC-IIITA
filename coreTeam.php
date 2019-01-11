@@ -16,18 +16,16 @@
     <meta name="author" content="FREEHTML5.CO" />
 
     <!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FREEHTML5.CO
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	linkedin: 		http://linkedin.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
+    //////////////////////////////////////////////////////
+    FREE HTML5 TEMPLATE 
+    DESIGNED & DEVELOPED by FREEHTML5.CO
+        
+    Website:        http://freehtml5.co/
+    Email:          info@freehtml5.co
+    linkedin:       http://linkedin.com/fh5co
+    Facebook:       https://www.facebook.com/fh5co
+    //////////////////////////////////////////////////////
+     -->
 
     <!-- Facebook and linkedin integration -->
     <meta property="og:title" content="" />
@@ -57,94 +55,142 @@
     <link rel="stylesheet" href="css/bootstrap.css">
 
     <!-- 
-	Default Theme Style 
-	You can change the style.css (default color purple) to one of these styles
-	
-	1. pink.css
-	2. blue.css
-	3. turquoise.css
-	4. orange.css
-	5. lightblue.css
-	6. brown.css
-	7. green.css
-
-	-->
+    Default Theme Style 
+    You can change the style.css (default color purple) to one of these styles
+    
+    1. pink.css
+    2. blue.css
+    3. turquoise.css
+    4. orange.css
+    5. lightblue.css
+    6. brown.css
+    7. green.css
+    -->
     <link rel="stylesheet" href="css/styleWhy.css">
 
 
 
     <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
-
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+ crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+ crossorigin="anonymous"></script>
+</head>
 <style>
 /* .nav-brand {
-	height: 20px;
-	width: 20px;
+    height: 20px;
+    width: 20px;
 } */
 .main-logo {
-	height: 100px;
+    height: 100px;
 }
 .fh5co-block {
-	height: 500px;
+    height: 500px;
 }
 .intro {
-	margin-bottom: -250px;
+    margin-bottom: -250px;
 }
 .why-button {
-	color : white;
-	text-decoration: none;
+    color : white;
+    text-decoration: none;
 }
 .why-button:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
 .events {
-	z-index: 2;
+    z-index: 2;
 }
 .dropdown {
-	display: none;
-	position: relative;
+    display: none;
+    position: relative;
 }
-
 </style>
-	</head>
-	<body>
-	<header role="banner" id="fh5co-header">
-			<div class="container">
-				<!-- <div class="row"> -->
-			    <nav class="navbar navbar-default">
-		        <div class="navbar-header">
-		        	<!-- Mobile Toggle Menu Button -->
-					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-<div class="nav-brand"><a class="navbar-brand" href="index.php"><img src="images/iiic2.png" 
-		 width="30" height="30" alt=""></a></div>
-		        </div>
-		        <div id="navbar" class="navbar-collapse collapse">
-		          <ul class="nav navbar-nav navbar-right">
-		            <li class="active"><a href="#" id="home" data-nav-section="home"><span>Home</span></a></li>
-					<li><a href="#" id="why"><span>Why IIIC?<span></a></li>
-					<li><a href="#" id="events"><span>Events</span></a></li>
-					<li><a href="#" id="apply"><span>Apply</span></a></li>
-					<li><a href="#" id="gap" ><span>Got A Problem</span></a></li>		            
-					<li><a href="#" id="pdc" ><span>Product Dev</span></a></li>
-				
-					<li class="drop"><a href="#">Team</a>
-						<ul class="dropdown">
-							<li><a href="#" id="fcteam">Official Team</a></li>
-							<li><a href="#" id="stdteam">Student Team</a></li>
-						</ul>
-					</li>
-					<li><a href="#" id="asc" ><span>Associations</span></a></li>
-					<li><a href="#" id="contact" data-nav-section="contact"><span>Contact</span></a></li>
-		          </ul>
-		        </div>
-			    </nav>
-			  <!-- </div> -->
-		  </div>
-	</header>    <section id="fh5co-about" data-section="about" style="padding-bottom: 0px">
+<body>
+    <header role="banner" id="fh5co-header">
+        <div class="container">
+            <!-- <div class="row"> -->
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <!-- Mobile Toggle Menu Button -->
+                    <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                        aria-controls="navbar">
+                        <i></i>
+                    </a>
+                    <div class="nav-brand">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="images/iiic2.png" width="40" height="35" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active">
+                            <a href="#" id="home" data-nav-section="home">
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" id="why">
+                                <span>Why IIIC?
+                                    <span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" id="events">
+                                <span>Events</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" id="applyme">
+                                <span>Apply</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" id="gaping">
+                                <span>Got A Problem</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" id="pdc" data-nav-section="intro">
+                                <span>Product Dev</span>
+                            </a>
+                        </li>
+    
+                        <li class="drop">
+                            <a >
+                                Team
+                            </a>
+                            <ul class="dropdown" >
+                                <li>
+                                    <a id="fcteam" href="#" >
+                                        <span>Faculty Team</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="stdteam"  href="#" >
+                                        <span>Student Team</span>
+                                    </a>
+                                </li>
+                                <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" id="contact" data-nav-section="contact">
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- </div> -->
+        </div>
+    </header>
+    <section id="fh5co-about" data-section="about" style="padding-bottom: 0px">
         <div class="container-fluid" style="margin-top: 120px">
             <div class="col-md-12 section-heading text-center">
                 <h2 class="to-animate">Core Team Of IIIC</h2>
@@ -314,32 +360,7 @@
                 </div>
             </div>
             
-            <div class="col-md-3">
-                <div class="fh5co-person text-center to-animate">
-                    <figure>
-                        <img src="team/shreyansh.jpg" alt="Image">
-                    </figure>
-                    <h3>Shreyansh Dwivedi</h3>
-                    <span class="fh5co-position">Head, Events Management</span>
-                    <ul class="social social-circle">
-                        <li>
-                            <a href="https://www.linkedin.com/in/shreyansh-dwivedi">
-                                <i class="icon-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/shreyansh.dwivedi.18">
-                                <i class="icon-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:iwm2016501@iiita.ac.in">
-                                <i class="icon-envelope"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            
             <div class="col-md-3">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
@@ -392,10 +413,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="row" id ="eventsmedia">
-        <div class="col-md-3">
+             <div class="col-md-3">
             <div class="fh5co-person text-center to-animate">
                 <figure>
                     <img src="team/yogesh.jpg" alt="Image">
@@ -422,7 +440,11 @@
                 </ul>
             </div>
         </div>
-        <div class="col-md-3">
+        </div>
+    </div>
+    <div class="row" id ="eventsmedia">
+        
+        <div class="col-md-4">
             <div class="fh5co-person text-center to-animate">
                 <figure>
                     <img src="team/kush.jpg" alt="Image">
@@ -438,9 +460,9 @@
                     </li>
                     <li>
                         <a href="https://www.facebook.com/kush.mishra.969">
-                            
+                        
                             <i class="icon-facebook"></i>
-                        </a>    
+                            </a>
                     </li>
                     <li>
                         <a href="mailto:iec2017083@iiita.ac.in">
@@ -450,7 +472,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <div class="fh5co-person text-center to-animate">
                 <figure>
                     <img src="team/adesh.jpg" alt="Image">
@@ -483,7 +505,7 @@
     <div class="container-fluid" style="margin-top: 40px">
         <div class="row">
             <div class="col-md-12 section-heading text-center">
-                <h2 class="to-animate">Corporate Relations</h2>
+                <h2 class="to-animate">Corporate Realtions</h2>
                 <div class="row">
                     <!-- <div class="col-md-8 col-md-offset-2 subtext to-animate">
                         <h3>Core Team of IIIC</h3>
@@ -495,23 +517,23 @@
             <div class="col-md-4">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
-                        <img src="team/aditi.jpg" alt="Image">
+                        <img src="team/shreyansh.jpg" alt="Image">
                     </figure>
-                    <h3>Aditi Aggrawal</h3>
+                    <h3>Shreyansh Dwivedi</h3>
                     <span class="fh5co-position">Head, Corporate Relations</span>
                     <ul class="social social-circle">
                         <li>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/shreyansh-dwivedi">
                                 <i class="icon-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://www.facebook.com/shreyansh.dwivedi.18">
                                 <i class="icon-facebook"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="iim2016001@iiita.ac.in">
+                            <a href="mailto:iwm2016501@iiita.ac.in">
                                 <i class="icon-envelope"></i>
                             </a>
                         </li>
@@ -722,32 +744,6 @@
         <div class="col-md-3">
             <div class="fh5co-person text-center to-animate">
                 <figure>
-                    <img src="team/gaurav.jpg" alt="Image">
-                </figure>
-                <h3>Gaurav Kumar</h3>
-                <span class="fh5co-position">Executive, Public Relations & Marketing</span>
-                <ul class="social social-circle">
-                    <li>
-                        <a href="#">
-                            <i class="icon-linkedin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="icon-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:iit2017017115@iiita.ac.in">
-                            <i class="icon-envelope"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="fh5co-person text-center to-animate">
-                <figure>
                     <img src="team/shekhawat.jpg" alt="Image">
                 </figure>
                 <h3>Rohan Shekhawat</h3>
@@ -838,7 +834,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3" >
                 <div class="fh5co-person text-center to-animate">
                     <figure>
                         <img src="team/ja.jpg" alt="Image">
@@ -1026,7 +1022,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
                         <img src="team/vinit.jpg" alt="Image">
@@ -1052,7 +1048,33 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
+                <div class="fh5co-person text-center to-animate">
+                    <figure>
+                        <img src="team/sidsam.jpg" alt="Image">
+                    </figure>
+                    <h3>Siddharth Simharaju</h3>
+                    <span class="fh5co-position">Head, Design</span>
+                    <ul class="social social-circle">
+                        <li>
+                            <a href="https://www.facebook.com/siddharth.simharaju?lst=100005337458697%3A100000516890821%3A1545936710">
+                                <i class="icon-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:iec2016066@iiiita.ac.in">
+                                <i class="icon-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
                         <img src="team/ajay.jpg" alt="Image">
@@ -1078,7 +1100,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
                         <img src="team/sahibdeep.jpg" alt="Image">
@@ -1125,8 +1147,8 @@
                 <div class="col-md-12 text-center">
                     <ul class="social social-circle">
                         <!-- <li><a href="#"><i class="icon-twitter"></i></a></li>
-    						<li><a href="#"><i class="icon-facebook"></i></a></li>
-    						<li><a href="#"><i class="icon-youtube"></i></a></li> -->
+                            <li><a href="#"><i class="icon-facebook"></i></a></li>
+                            <li><a href="#"><i class="icon-youtube"></i></a></li> -->
                         <li>
                             <a href="https://www.facebook.com/pg/iiicallahabad/about/?ref=page_internal" target="_blank">
                                 <i class="icon-facebook"></i>
@@ -1165,9 +1187,7 @@
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
     <script src="js/google_map.js"></script>
-
     <script>
-
 $(".drop")
   .mouseleave(function() {
   $(".dropdown").hide(300);     
@@ -1177,39 +1197,38 @@ $(".drop")
   $(".dropdown").show(300);
 });
 </script>
-<script>
-		document.getElementById("events").onclick = function () {
-    location.href = "events.php";
-};
-document.getElementById("why").onclick = function () {
-    location.href = "why.php";
-};
-document.getElementById("apply").onclick = function () {
-    location.href = "apply.php";
-};
-document.getElementById("home").onclick = function () {
-    location.href = "index.php";
-};
-document.getElementById("gap").onclick = function () {
-    location.href = "gotaproblem.php";
-};
-document.getElementById("contact").onclick = function () {
-    location.href = "index.php#cntct";
-};
-document.getElementById("pdc").onclick = function () {
-    location.href = "pdc.php";
-};
-document.getElementById("fcteam").onclick = function () {
-location.href = "officialTeam.php";
-};
-document.getElementById("stdteam").onclick = function () {
-location.href = "coreTeam.php";
-};
-document.getElementById("asc").onclick = function () {
-location.href = "associates.php";
-};
-
-</script>
+    <script>
+        document.getElementById("events").onclick = function () {
+            location.href = "events.php";
+        };
+        document.getElementById("why").onclick = function () {
+            location.href = "why.php";
+        };
+        document.getElementById("home").onclick = function () {
+            location.href = "index.php";
+        };
+        document.getElementById("pdc").onclick = function () {
+            location.href = "pdc.php";
+        };
+        document.getElementById("contact").onclick = function () {
+            location.href = "index.php";
+        };
+        document.getElementById("applyme").onclick = function () {
+            location.href = "apply.php";
+        };
+        document.getElementById("testi").onclick = function () {
+            location.href = "index.php";
+        };
+        document.getElementById("gaping").onclick = function () {
+            location.href = "gotaproblem.php";
+        };
+        document.getElementById("fcteam").onclick = function () {
+            location.href = "officialTeam.php";
+        };
+        document.getElementById("stdteam").onclick = function () {
+            location.href = "coreTeam.php";
+        };
+    </script>
 
 
     <!-- Main JS (Do not remove) -->
