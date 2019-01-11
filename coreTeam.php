@@ -1211,7 +1211,7 @@ $(".drop")
             location.href = "pdc.php";
         };
         document.getElementById("contact").onclick = function () {
-            location.href = "index.php";
+            location.href = "index.php#cntct";
         };
         document.getElementById("applyme").onclick = function () {
             location.href = "apply.php";
