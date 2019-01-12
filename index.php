@@ -174,7 +174,7 @@
 								<div class="author to-animate">
 									<figure><img src="images/person3.jpg" alt="Person"></figure>
 									<p>
-									Aqram Ahmed,MBA-PhD(pursuing)<br> <a href="" target="_blank">IIIT Allahabad</a> <span class="subtext">IEEE Member</span>
+									Aqram Ahmad<br> <a href="" target="_blank">IIIT Allahabad</a> <span class="subtext"></span>
 									</p>
 								</div>
 							</div>
