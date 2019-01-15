@@ -111,87 +111,42 @@
 }
 </style>
 <body>
-    <header role="banner" id="fh5co-header">
-        <div class="container">
-            <!-- <div class="row"> -->
-            <nav class="navbar navbar-default">
-                <div class="navbar-header">
-                    <!-- Mobile Toggle Menu Button -->
-                    <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                        aria-controls="navbar">
-                        <i></i>
-                    </a>
-                    <div class="nav-brand">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="images/iiic2.png" width="40" height="35" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active">
-                            <a href="#" id="home" data-nav-section="home">
-                                <span>Home</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" id="why">
-                                <span>Why IIIC?
-                                    <span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" id="events">
-                                <span>Events</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" id="applyme">
-                                <span>Apply</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" id="gaping">
-                                <span>Got A Problem</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" id="pdc" data-nav-section="intro">
-                                <span>Product Dev</span>
-                            </a>
-                        </li>
-    
-                        <li class="drop">
-                            <a >
-                                Team
-                            </a>
-                            <ul class="dropdown" >
-                                <li>
-                                    <a id="fcteam" href="#" >
-                                        <span>Faculty Team</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a id="stdteam"  href="#" >
-                                        <span>Student Team</span>
-                                    </a>
-                                </li>
-                                <!-- <a class="dropdown-item" href="#">Something else here</a> -->
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#" id="contact" data-nav-section="contact">
-                                <span>Contact</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <!-- </div> -->
-        </div>
-    </header>
+   	<header role="banner" id="fh5co-header">
+			<div class="container">
+				<!-- <div class="row"> -->
+			    <nav class="navbar navbar-default">
+		        <div class="navbar-header">
+		        	<!-- Mobile Toggle Menu Button -->
+					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+<div class="nav-brand"><a class="navbar-brand" href="index.php"><img src="images/iiic2.png" 
+		 width="40" height="40" alt=""></a></div>
+		        </div>	</body>
+		        <div id="navbar" class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav navbar-right">
+		            <li class="active"><a href="#" id="home" style="color:black" data-nav-section="home"><span>Home</span></a></li>
+					<li><a href="#" id="why" style="color:black"><span>Why IIIC?<span></a></li>
+					<li><a href="#" id="events"style="color:black"><span>Events</span></a></li>
+					<li><a href="#" id="apply"style="color:black"style="color:black"><span>Apply</span></a></li>
+					<li><a href="#" id="gap"style="color:black" data-nav-section="intro"><span>Got A Problem</span></a></li>		            
+					<li><a href="#" id="pdc"style="color:black" data-nav-section="intro"><span>Product Dev</span></a></li>
+				
+					<li class="drop"><a href="#"style="color:black"style="color:black">Team</a>
+						<ul class="dropdown">
+							<li><a href="#" id="fcteam"style="color:black"style="color:black"style="color:black"style="color:black">Official Team</a></li>
+							<li><a href="#" id="stdteam"style="color:black"style="color:black"style="color:black">Student Team</a></li>
+						</ul>
+					</li>
+					<li><a href="#" id="asc"style="color:black" data-nav-section="asc"><span>Associations</span></a></li>
+					<li><a href="#" id="contact" data-nav-section="contact"style="color:black"><span>Contact</span></a></li>
+		          </ul>
+		        </div>
+			    </nav>
+			  <!-- </div> -->
+		  </div>
+	</header>
+
     <section id="fh5co-about" data-section="about" style="padding-bottom: 0px">
-        <div class="container-fluid" style="margin-top: 120px">
+        <div class="container-fluid" style="margin-top: 100px">
             <div class="col-md-12 section-heading text-center">
                 <h2 class="to-animate">Core Team Of IIIC</h2>
             </div> 
@@ -200,7 +155,7 @@
     
 
 <section id="fh5co-about" data-section="about">
-        <div class="container-fluid" style="margin-top: 20px">
+        <div class="container-fluid" >
             <div class="row">
                 <div class="col-md-12 section-heading text-center">
                     <h2 class="to-animate">Overall Coordinators</h2>
@@ -1197,39 +1152,39 @@ $(".drop")
   $(".dropdown").show(300);
 });
 </script>
-    <script>
-        document.getElementById("events").onclick = function () {
-            location.href = "events.php";
-        };
-        document.getElementById("why").onclick = function () {
-            location.href = "why.php";
-        };
-        document.getElementById("home").onclick = function () {
-            location.href = "index.php";
-        };
-        document.getElementById("pdc").onclick = function () {
-            location.href = "pdc.php";
-        };
-        document.getElementById("contact").onclick = function () {
-            location.href = "index.php#cntct";
-        };
-        document.getElementById("applyme").onclick = function () {
-            location.href = "apply.php";
-        };
-        document.getElementById("testi").onclick = function () {
-            location.href = "index.php";
-        };
-        document.getElementById("gaping").onclick = function () {
-            location.href = "gotaproblem.php";
-        };
-        document.getElementById("fcteam").onclick = function () {
-            location.href = "officialTeam.php";
-        };
-        document.getElementById("stdteam").onclick = function () {
-            location.href = "coreTeam.php";
-        };
-    </script>
+   	<script>
+		document.getElementById("events").onclick = function () {
+    location.href = "events.php";
+};
+document.getElementById("why").onclick = function () {
+    location.href = "why.php";
+};
+document.getElementById("apply").onclick = function () {
+    location.href = "apply.php";
+};
+document.getElementById("home").onclick = function () {
+    location.href = "index.php";
+};
+document.getElementById("gap").onclick = function () {
+    location.href = "gotaproblem.php";
+};
+document.getElementById("contact").onclick = function () {
+    location.href = "index.php#cntct";
+};
+document.getElementById("pdc").onclick = function () {
+    location.href = "pdc.php";
+};
+document.getElementById("fcteam").onclick = function () {
+location.href = "officialTeam.php";
+};
+document.getElementById("stdteam").onclick = function () {
+location.href = "coreTeam.php";
+};
+document.getElementById("asc").onclick = function () {
+location.href = "associates.php";
+};
 
+</script>
 
     <!-- Main JS (Do not remove) -->
     <script src="js/main2.js"></script>

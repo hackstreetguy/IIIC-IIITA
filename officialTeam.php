@@ -138,7 +138,7 @@
 							<li><a href="#" id="stdteam"style="color:black"style="color:black"style="color:black">Student Team</a></li>
 						</ul>
 					</li>
-					<li><a href="#" id="gap"style="color:black" data-nav-section="asc"><span>Associations</span></a></li>
+					<li><a href="#" id="asc"style="color:black" data-nav-section="asc"><span>Associations</span></a></li>
 					<li><a href="#" id="contact" data-nav-section="contact"style="color:black"><span>Contact</span></a></li>
 		          </ul>
 		        </div>
@@ -193,25 +193,6 @@
 				</div>
 				<div class="col-md-3">
 					<div class="fh5co-person text-center to-animate">
-						<figure><img src="images/speakers/kalasir.jpg" alt="Image"></figure>
-						<h3>Dr. Rahul Kala</h3>
-						<span class="fh5co-position">Faculty Advisor</span>
-						<ul class="social social-circle">
-							<!-- <li>
-								<a href="#">
-									<i class="icon-linkedin"></i>
-								</a>
-							</li> -->
-							<li>
-								<a href="mailto:rkala@iiita.ac.in" title="rkala@iiita.ac.in">
-									<i class="icon-envelope"></i>
-								</a>
-							</li>
-						</ul>
-					</div>
-                </div>
-                <div class="col-md-3">
-					<div class="fh5co-person text-center to-animate">
 						<figure><img src="images/speakers/pavan.jpg" alt="Image"></figure>
 						<h3>Dr. Pavan Chakraborty</h3>
 						<span class="fh5co-position">Associate Dean (Research Development)</span>
@@ -234,6 +215,25 @@
 						</ul> 
 					</div>
 				</div>
+				<div class="col-md-3">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="images/speakers/kalasir.jpg" alt="Image"></figure>
+						<h3>Dr. Rahul Kala</h3>
+						<span class="fh5co-position">Faculty Advisor</span>
+						<ul class="social social-circle">
+							<!-- <li>
+								<a href="#">
+									<i class="icon-linkedin"></i>
+								</a>
+							</li> -->
+							<li>
+								<a href="mailto:rkala@iiita.ac.in" title="rkala@iiita.ac.in">
+									<i class="icon-envelope"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+                </div>
 			</div>
 		</div>
 	</section>
