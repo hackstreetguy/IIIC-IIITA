@@ -1,4 +1,99 @@
+<?php
+    require 'vendor/autoload.php';
+    $message = "";
 
+    if (isset($_REQUEST['submitBtn'])) {
+        $name = $_REQUEST['name'];
+        $idea = $_REQUEST['idea'];
+        $email = $_REQUEST['email'];
+        $current_status = $_REQUEST['current-status'];
+        $skills = $_REQUEST['skills'];
+        $requirements = $_REQUEST['requirements'];
+        
+        $upload_dir = '/data/iiic/uploads/';
+        // $upload_dir = 'uploads/';
+        $file_name = $_FILES["document"]['name'];
+
+        if (empty($_FILES) && empty($_POST)) {
+            $message = 'The uploaded zip was too large. You must upload a file smaller than ' . ini_get("upload_max_filesize");
+        } else if ($name != "" && $idea != "" && $email != "" && $current_status != "" && $skills != "" && $requirements != "") {
+            $connection = new mysqli("127.0.0.1", "iiicdba", "iiicdb@2018", "iiicdb");
+            // $connection = new mysqli("127.0.0.1", "root", "root", "iiic");
+
+            if ($connection->connect_error) {
+                die("Connection failed: " . $connection->connect_error);
+            }
+
+            $statement = $connection->prepare("INSERT INTO Help (name, email, idea, current_status, skills, requirements, document) VALUES (?, ?, ?, ?, ?, ?, ?)");
+
+            $file_hash = hash_file("sha256", $_FILES["document"]['tmp_name']);
+            $hashed_filename = $file_hash;
+            $upload_file = $upload_dir . basename($hashed_filename);
+            // move_uploaded_file($_FILES["business-plan"]['tmp_name'], $upload_file);
+            if (move_uploaded_file($_FILES["document"]['tmp_name'], $upload_file)) {
+                $statement->bind_param("sssssss", $name, $email, $idea, $current_status, $skills, $requirements,
+                                    $hashed_filename);
+
+                if ($statement->execute()) {
+                    $message = "Submitted Successfully";
+                } else {
+                    $message = "There was some error";
+                }
+
+                $mail = new PHPMailer(true);                             
+                try {
+                    //Server settings
+                    
+                    $mail->isSMTP();                                    // Set mailer to use SMTP
+                    $mail->Host = "smtp.gmail.com";  // Specify main and backup SMTP servers
+                    $mail->SMTPAuth = true;                               // Enable SMTP authentication
+                    $mail->Username = 'iiic@iiita.ac.in';                 // SMTP username
+                    $mail->Password = 'ecell@iiic18';                           // SMTP password
+                    $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+                    $mail->Port = 465;                                    // TCP port to connect to
+
+                    //Recipients
+                    $mail->Subject = 'Got problem email';
+                    $mail->setFrom("iiic@iiita.ac.in", $name);
+                    $mail->addAddress("iiic@iiita.ac.in");  
+                    // $mail->AddReplyTo($email, $name);   // Add a recipient    // Add a recipient
+                    //$mail->addAddress('ellen@example.com');               // Name is optional
+                    //$mail->addReplyTo('info@example.com', 'Information');
+                    //$mail->addCC('cc@example.com');
+                    //$mail->addBCC('bcc@example.com');
+
+                    //Attachments
+                    $files_to_attach = $_FILES["document"]['tmp_name']; 
+                    // $mail->AddAttachment($files_to_attach, $file_name); 
+                    //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
+                       // Optional name
+
+                    //Content
+                    $mail->isHTML(false);                                  // Set email format to HTML
+                    
+                    $mes = 'Name: '.$name.'  Email: '.$email.'  Idea: '.$idea.'  Current Status: '.$current_status.'  Skills: '.$skills.'   Requirements: '.$requirements;
+                    $mail->Body = $mes;
+                    
+                    
+                    //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+                    $mail->send();
+                    //echo 'Message has been sent';
+                    $message = "Application Submitted Successfully";
+                }
+                catch (Exception $e) {
+                    echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+                }
+            } else {
+                $message = "There was some error. Please try again";
+            }
+                       
+            $statement->close();
+            $connection->close();
+        }
+    }
+
+?>  
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
