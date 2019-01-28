@@ -8,51 +8,49 @@
         $name = $_REQUEST['name'];
         $number = $_REQUEST['number'];
         $email = $_REQUEST['email'];
-        $require1 = $_REQUEST['require'];
+        $require1 = $_REQUEST['require1'];
         $plan = $_REQUEST['plan'];
         $pay_type = $_REQUEST['pay_type'];
         $dev_team = $_REQUEST['dev_team'];
         $recruit = $_REQUEST['recruit'];
+        $bplan = $_REQUEST['bplan'];
         
-        $upload_dir = '/data/iiic/uploads/';
-        // $upload_dir = 'uploads/';
-        $file_name = $_FILES["requirements"]['name'];
+        if ($name != "" &&
+            $email != "" &&
+            $number != "" &&
+            $require1 != "" &&
+            $plan != "" && 
+            $pay_type != "" &&
+            $dev_team != "" &&
+            $recruit != "" ) {
 
-        if (empty($_FILES) && empty($_POST)) {
-            $message = 'The uploaded zip was too large. You must upload a file smaller than ' . ini_get("upload_max_filesize");
-        } else if ($name != "" && $email != "" && $number != "" && $require1 != "" && $plan != "" && $pay_type != "" && $dev_team != "" && $recruit != "" ) {
             $connection = new mysqli("127.0.0.1", "iiicdba", "iiicdb@2018", "iiicdb");
-            // $connection = new mysqli("127.0.0.1", "root", "root", "iiic");
 
             if ($connection->connect_error) {
                 die("Connection failed: " . $connection->connect_error);
             }
+            $statement = $connection->prepare("INSERT INTO ProductDev (name, phone_number, email, requirements, plan, pay_type, dev_team, recruit, requirements_file)  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
 
-            $statement = $connection->prepare("INSERT INTO ProductDev (name, phone_number, email, requirements, plan, pay_type, dev_team, recruit, requirements_file, file_hash ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
-
-            $file_hash = hash_file("sha256", $_FILES["requirements"]['tmp_name']);
-            $hashed_filename = $file_hash;
-            $upload_file = $upload_dir . basename($hashed_filename);
-            // move_uploaded_file($_FILES["business-plan"]['tmp_name'], $upload_file);
-            if (move_uploaded_file($_FILES["requirements"]['tmp_name'], $upload_file)) {
-                $statement->bind_param("sssssss", $name, $number, $email, $require1, $plan, $pay_type, $dev_team,
-                                    $recruit, $file_name ,$hashed_filename);
-
+            if (1) {    
+                $statement->bind_param("ssssssssss", $name, $number, $email, $require1, $plan, $pay_type, $dev_team,
+                $recruit, $bplan);
+    
                 if ($statement->execute()) {
-                    $message = "Submitted Successfully";
+                $message = "Submitted Successfully";
                 } else {
-                    $message = "There was some error";
+                $message = "There was some error";
                 }
 
                 $mail = new PHPMailer(true);                             
                 try {
+
                     //Server settings
                     
                     $mail->isSMTP();                                    // Set mailer to use SMTP
                     $mail->Host = "smtp.gmail.com";  // Specify main and backup SMTP servers
                     $mail->SMTPAuth = true;                               // Enable SMTP authentication
                     $mail->Username = 'iiic@iiita.ac.in';                 // SMTP username
-                    $mail->Password = 'ecell@iiic18';                           // SMTP password
+                    $mail->Password = 'iiic_2018';                           // SMTP password
                     $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
                     $mail->Port = 465;                                    // TCP port to connect to
 
@@ -75,7 +73,7 @@
                     //Content
                     $mail->isHTML(false);                                  // Set email format to HTML
                     
-                    $mes = 'Name: '.$name.' Number: '.$number.'  Email: '.$email.'  Requirements: '.$require1.'  Summary of company status: '.$plan.'  Payment Type: '.$pay_type.'   Development Team: '.$dev_team.' Development Team Recruitment: '.$recruit;
+                    $mes = 'Name: '.$name.'Number: '.$number.'  Email: '.$email.'  Requirements: '.$require1.'  Summary of company status: '.$plan.'  Payment Type: '.$pay_type.'   Development Team: '.$dev_team.' Development Team Recruitment: '.$recruit;
                     $mail->Body = $mes;
                     
                     
@@ -91,6 +89,8 @@
             } else {
                 $message = "There was some error. Please try again";
             }
+
+            echo $message;
                        
             $statement->close();
             $connection->close();
@@ -270,7 +270,7 @@ The product development is done with great expertise under the supervision of kn
             </div>
             <div class="col-md-12 col-12">
                 <div class="contact_form">
-                <form id="project-contact-form" action="product-develop.php" method="post" enctype="multipart/form-data"/>
+                <form id="project-contact-form" action="pdc.php" method="post" enctype="multipart/form-data"/>
                     <div class="form-group col-md-12" style="padding-top: 1.5em">
                         <input name="name" type="text" class="form-control" placeholder="Name" required>
                     </div>
@@ -281,7 +281,7 @@ The product development is done with great expertise under the supervision of kn
                         <input name="number" type="text" class="form-control" placeholder="Phone Number" required>
                     </div>
                     <div class="form-group col-md-12">
-                        <textarea name="require" class="form-control" cols="4" rows="2" placeholder="Summary of Requirements"></textarea>
+                        <textarea name="require1" class="form-control" cols="4" rows="2" placeholder="Summary of Requirements"></textarea>
                     </div>
                     <div class="form-group col-md-12">
                         <textarea name="plan" class="form-control" cols="4" rows="2" placeholder="A Brief of the current nature of the company"></textarea>
@@ -296,11 +296,10 @@ The product development is done with great expertise under the supervision of kn
                         <input name="recruit" type="text" class="form-control" placeholder="In case you would like our team to mentor, will you recruit the students/employees yourself, or would you like us to do so?">
                     </div>
                     <div class="form-group col-md-6">
-                            <input name="file" type="hidden" name="MAX_FILE_SIZE" value="1000000" />
-                            Upload your detailed requirements in PDF format: <input type="file" name="reqirements" placeholder="Upload your reqirements" class="form-control" id="reqirements">
-                        </div>
+                        <input type="text" class="form-control" name="bplan" id="drive-link" placeholder="Drive link for your requirements">
+                    </div>
                     <div class="form-group text-right">
-                        <button class="btn btn-rounded btn-primary" name="submitBtn" type="submit">Submit</button>
+                        <button class="btn btn-rounded btn-primary" name="submitBtn" value="2" type="submit">Submit</button>
                     </div>
                 </form>
                 </div>

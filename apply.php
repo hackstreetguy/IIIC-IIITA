@@ -1,101 +1,4 @@
-<?php
-    require 'vendor/autoload.php';
-    $message = "";
 
-    if (isset($_REQUEST['recruiterBtn'])) {
-        $name = $_REQUEST['contact-name'];
-        $phone_no = $_REQUEST['contact-number'];
-        $email = $_REQUEST['contact-email'];
-        $summary = $_REQUEST['summary'];
-        $current_position = $_REQUEST['current-position'];
-        $current_nature = $_REQUEST['current-nature'];
-        $proposal_for = $_REQUEST['proposal-for'];
-        $tide_scheme = $_REQUEST['tide-scheme'];
-        
-        $upload_dir = '/data/iiic/uploads/';
-        // $upload_dir = 'uploads/';
-        $file_name = $_FILES["business-plan"]['name'];
-
-        if (empty($_FILES) && empty($_POST)) {
-            $message = 'The uploaded zip was too large. You must upload a file smaller than ' . ini_get("upload_max_filesize");
-        } else if ($name != "" && $phone_no != "" && $email != "" && $summary != "" && $current_position != "" && $current_nature != "" && $file_name != "") {
-            $connection = new mysqli("127.0.0.1", "iiicdba", "iiicdb@2018", "iiicdb");
-            // $connection = new mysqli("127.0.0.1", "root", "root", "iiic");
-
-            if ($connection->connect_error) {
-                die("Connection failed: " . $connection->connect_error);
-            }
-
-            $statement = $connection->prepare("INSERT INTO Recruiter (name, email, phone_no, summary, 
-                                    current_position, current_nature, proposal_for, tide_scheme, idea_file, file_hash) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
-
-            $file_hash = hash_file("sha256", $_FILES["business-plan"]['tmp_name']);
-            $hashed_filename = $file_hash;
-            $upload_file = $upload_dir . basename($hashed_filename);
-            // move_uploaded_file($_FILES["business-plan"]['tmp_name'], $upload_file);
-            if (move_uploaded_file($_FILES["business-plan"]['tmp_name'], $upload_file)) {
-                $statement->bind_param("ssssssssss", $name, $email, $phone_no, $summary, $current_position, $current_nature, $proposal_for, $tide_scheme,
-                                    $file_name, $hashed_filename);
-
-                if ($statement->execute()) {
-                    $message = "Submitted your current_nature Successfully";
-                } else {
-                    $message = "There was some error";
-                }
-
-                $mail = new PHPMailer(true);                             
-                try {
-                    //Server settings
-                    
-                    $mail->isSMTP();                                    // Set mailer to use SMTP
-                    $mail->Host = "smtp.gmail.com";  // Specify main and backup SMTP servers
-                    $mail->SMTPAuth = true;                               // Enable SMTP authentication
-                    $mail->Username = 'iiic@iiita.ac.in';                 // SMTP username
-                    $mail->Password = 'ecell@iiic18';                           // SMTP password
-                    $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-                    $mail->Port = 465;                                    // TCP port to connect to
-
-                    //Recipients
-                    $mail->Subject = 'Contact Us query email';
-                    $mail->setFrom("iiic@iiita.ac.in", $name);
-                    $mail->addAddress("iiic@iiita.ac.in");  
-                    // $mail->AddReplyTo($email, $name);   // Add a recipient    // Add a recipient
-                    //$mail->addAddress('ellen@example.com');               // Name is optional
-                    //$mail->addReplyTo('info@example.com', 'Information');
-                    //$mail->addCC('cc@example.com');
-                    //$mail->addBCC('bcc@example.com');
-
-                    //Attachments
-                    $files_to_attach = $_FILES["business-plan"]['tmp_name']; 
-                    // $mail->AddAttachment($files_to_attach, $file_name); 
-                    //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-                       // Optional name
-
-                    //Content
-                    $mail->isHTML(false);                                  // Set email format to HTML
-                    $mail->Subject = 'Application for Incubation';
-                    $mes = 'Name: '.$name.'  Email: '.$email.'  Phone: '.$phone_no.'  Executive Summary: '.$summary.'  Brief of current position: '.$current_position.'  Brief of current nature of the company: '.$current_nature.'  Proposal for: '.$proposal_for.'  Applying for tide scheme: '.$tide_scheme;
-                    $mail->Body = $mes;
-                    
-                    
-                    //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-
-                    $mail->send();
-                    //echo 'Message has been sent';
-                    $message = "Application Submitted Successfully";
-                }
-                catch (Exception $e) {
-                    echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
-                }
-            } else {
-                $message = "There was some error. Please try again";
-            }
-                       
-            $statement->close();
-            $connection->close();
-        }
-    }
-?>a
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -262,8 +165,8 @@
                     </h2>
                     <p class="col-md-12 col-12" style="text-align: center">
                             IIIC is happy to announce that the current round of recruitments are open.<br>
-        The application deadline for applying against the current round of recruitments is 12th March, 2018.<br>
-        Screening of applications will take place on 13th March, 2018 and final selections at IIIT Allahabad will be done on 16-18th March, 2018.
+        The application deadline for applying against the current round of recruitments is 10th Februrary, 2019.<br>
+        Screening of applications will take place on 13th Februrary, 2019 and final selections at IIIT Allahabad will be done on 9th March, 2019.
         
                     </p>
 
@@ -271,37 +174,40 @@
             </div>
             <div class="col-md-12 col-12">
                 <div class="contact_form">
-                <form id="project-contact-form" action="apply.php" method="post" enctype="multipart/form-data"/>
+                <form id="project-contact-form" >
                     <div class="form-group col-md-12" style="padding-top: 1.5em">
-                        <input type="text" class="form-control" placeholder="Name" name="contact-name" required>
+                        <input type="text" class="form-control" placeholder="Name" id="contact-name" required>
                     </div>
                     <div class="form-group col-md-12" style="padding-top: 1.5em">
-                        <input type="text" class="form-control" placeholder="Phone Number" name="contact-number" required>
+                        <input type="text" class="form-control" placeholder="Phone Number" id="contact-number" required>
                     </div>
                     <div class="form-group col-md-12">
-                        <input type="email" class="form-control" placeholder="E-mail" name="contact-email" required>
+                        <input type="text" class="form-control" placeholder="E-mail" id="contact-email" required>
                     </div>
                     <div class="form-group col-md-12">
-                        <input type="text" class="form-control" placeholder="Executive Summary" name="summary" required>
+                        <input type="text" class="form-control" placeholder="Executive Summary" id="summary" required>
                     </div>
                     <div class="form-group col-md-12">
-                        <input style="height: 10em" class="form-control" type="text" name="current-position" placeholder="A brief of your current position"/>
+                        <input style="height: 10em" class="form-control" type="text" id="current-position" placeholder="A brief of your current position"/>
                     </div>
                     <div class="form-group col-md-12">
-                        <input class="form-control" type="text" name="current-nature" placeholder="A brief of the current nature of the company seeking incubation"/>
+                        <input class="form-control" type="text" id="current-nature" placeholder="A brief of the current nature of the company seeking incubation"/>
                     </div>
                     <div class="form-group col-md-12">
-                        <input type="text" class="form-control"  name="proposal-for" placeholder="Is the proposal for B-plan Writing competition, seeking incubation at IIIC or both?">
+                        <input type="text" class="form-control"  id="proposal-for" placeholder="Is the proposal for B-plan Writing competition, seeking incubation at IIIC or both?">
                     </div>
                         <div class="form-group col-md-12">
-                                <input type="text" class="form-control" name="tide-scheme" placeholder="Whether you would like to apply for seed funding under the TIDE scheme?">
+                                <input type="text" class="form-control" id="tide-scheme" placeholder="Whether you would like to apply for seed funding under the TIDE scheme or through Investors ?">
                             </div>
-                    <div class="form-group col-md-6">
-                            <input type="hidden" name="MAX_FILE_SIZE" value="1000000" />
-                            Upload your business plan in pdf format: <input type="file" name="business-plan" placeholder="Upload your business plan in pdf format" class="form-control" id="reqirements">
-                        </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="drive-link" placeholder="Drive link for the business plan">
+                            </div>
+                            <div class="form-group col-md-12">
+                                 <h3>Your B-Plan will not be shared with anyone</h3>
+                            </div>
+                           
                     <div class="form-group text-right">
-                        <button class="btn btn-rounded btn-primary" name="recruiterBtn" type="submit">Submit</button>
+                        <button class="btn btn-rounded btn-primary" id="submit" type="submit">Submit</button>
                     </div>
                     </form>
                 </div>
@@ -369,6 +275,48 @@
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
     <script src="js/google_map.js"></script>
+    <script src="js/airtable.browser.js"></script>
+    <script>
+    var Airtable = require('airtable');
+    var base = new Airtable({apiKey: 'keyohoRKRtvuB9AvU'}).base('appGflzZRcjFfUMiF');
+    $("#submit").click(function(e){
+        e.preventDefault();
+        var name=document.getElementById("contact-name").value;
+        var contact=document.getElementById("contact-number").value;
+        var email=document.getElementById("contact-email").value;
+        var summary=document.getElementById("summary").value;
+        var currentPosition=document.getElementById("current-position").value;
+        var currentNature=document.getElementById("current-nature").value;
+        var proposalFor=document.getElementById("proposal-for").value;
+        var tideScheme=document.getElementById("tide-scheme").value;
+        var driveLink=document.getElementById("drive-link").value;
+        base('apply').create({
+            "Name" : name,
+            "Phone number" : contact,
+            "Email" : email,
+            "Executive Summary" : summary,
+            "Brief of current position" : currentPosition,
+            "Brief of current nature" : currentNature,
+            "Seek incubation at iiic or both" : proposalFor,
+            "Apply under Tide" : tideScheme,
+            "file" : driveLink
+        }, function(err, record) {
+        if (err) { console.error(err); return; }
+        console.log(record.getId());
+        document.getElementById("contact-name").value="";
+        document.getElementById("contact-number").value="";
+        document.getElementById("contact-email").value="";
+        document.getElementById("summary").value="";
+        document.getElementById("current-position").value="";
+        document.getElementById("current-nature").value="";
+        document.getElementById("proposal-for").value="";
+        document.getElementById("tide-scheme").value="";
+        document.getElementById("drive-link").value="";
+        });
+
+});
+    </script>
+
 
     <script>
 
