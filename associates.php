@@ -238,7 +238,98 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="container-fluid"  style="margin-top: 100px">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">E-SUMMIt SPONSORS</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<!-- <h3>Official Team of IIIC</h3> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="fh5co-person text-center to-animate">
+                   <a href="https://www.infotechhub.in/" target="blank"> <img src="images/brands/infotech.png" alt="Image" height="80" width="200"></a>					
+						<!-- <span class="fh5co-position">Patron</span> -->
+						<p></p>
+						<!-- <ul class="social social-circle">
+							<li><a href="mailto:pnagabhushan@iiita.ac.in" title="pnagabhushan@iiita.ac.in"><i class="icon-envelope"></i></a></li>
+						</ul> -->
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="fh5co-person text-center to-animate">
+					<a href="https://collegedunia.com/" target="blank">	<img src="images/brands/clgd.jpg" alt="Image" height="80" width="200" ></a>
+                    
+                        <p></p>
+						<!-- <span class="fh5co-position">Chair person</span> -->
+						<!-- <ul class="social social-circle">
+							<li>
+								<a href="#">
+									<i class="icon-linkedin"></i>
+								</a>
+							</li>
+							<li>
+								<a href="mailto:tlahiri@iiita.ac.in" title="tlahiri@iiita.ac.in">
+									<i class="icon-envelope"></i>
+								</a>
+							</li>
+						</ul> -->
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="fh5co-person text-center to-animate">
+					<a href="https://www.thecollegefever.com/" target="blank">	<img src="images/brands/cfever.jpg" alt="Image" height="80" width="200"></a>
+                       
+                        <p></p>
+						<!-- <span class="fh5co-position">Faculty Advisor</span> -->
+						<!-- <ul class="social social-circle">
+							<li>
+								<a href="#">
+									<i class="icon-linkedin"></i>
+								</a>
+							</li>
+							<li>
+								<a href="mailto:rkala@iiita.ac.in" title="rkala@iiita.ac.in">
+									<i class="icon-envelope"></i>
+								</a>
+							</li>
+						</ul> -->
+					</div>
+                </div>
+                <div class="col-md-3">
+					<div class="fh5co-person text-center to-animate">
+            <a href="https://www.time4education.com/" target="blank"><img src="images/brands/time.png" alt="Image" height="80" width="200"></a>
+                       
+                        <p></p>
+						<!-- <span class="fh5co-position">Faculty Advisor</span> -->
+						<!-- <ul class="social social-circle">
+							<li>
+								<a href="#">
+									<i class="icon-linkedin"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="icon-facebook"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="icon-envelope"></i>
+								</a>
+							</li>
+						</ul>  -->
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
+
 
 	
 <footer id="footer" role="contentinfo">
