@@ -1274,7 +1274,7 @@
             <div class="col-md-3">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
-                        <img src="team/mudit.jpg" alt="Image">
+                        <img src="team/Mudit.jpg" alt="Image">
                     </figure>
                     <h3>Mudit Goyal</h3>
                     <span class="fh5co-position">Executive, Web Operations</span>
