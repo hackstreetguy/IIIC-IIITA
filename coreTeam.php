@@ -690,7 +690,7 @@
     <div class="container-fluid" style="margin-top: 40px">
         <div class="row">
             <div class="col-md-12 section-heading text-center">
-                <h2 class="to-animate">Public Relations And Marekting</h2>
+                <h2 class="to-animate">Public Relations And Marketing</h2>
                 <div class="row">
                     <!-- <div class="col-md-8 col-md-offset-2 subtext to-animate">
                         <h3>Core Team of IIIC</h3>
