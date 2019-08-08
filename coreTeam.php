@@ -154,8 +154,8 @@
     </section>
     
 
-<section id="fh5co-about" data-section="about">
-        <div class="container-fluid" >
+    <section id="fh5co-about" data-section="about">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 section-heading text-center">
                     <h2 class="to-animate">Overall Coordinators</h2>
@@ -197,23 +197,23 @@
                 <div class="col-md-6">
                     <div class="fh5co-person text-center to-animate">
                         <figure>
-                            <img src="team/pranav.jpg" alt="Image">
+                            <img src="team/aadya.jpg" alt="Image">
                         </figure>
-                        <h3>Pranav Mahajan</h3>
+                        <h3>Aadya Mishra</h3>
                         <span class="fh5co-position">Overall Coordinator</span>
                         <ul class="social social-circle">
                             <li>
-                                <a href="https://www.linkedin.com/in/pranav-mahajan-012b6b126/" target="_blank">
+                                <a href="https://www.linkedin.com/in/aadya-mishra-028b0b159/" target="_blank">
                                     <i class="icon-linkedin"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.facebook.com/pranav.mahajan.3557" target="_blank">
+                                <a href="https://www.facebook.com/aadya.mishra.583" target="_blank">
                                     <i class="icon-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="mailto:iit2016086@iiita.ac.in">
+                                <a href="mailto:iit2017016@iiita.ac.in">
                                     <i class="icon-envelope"></i>
                                 </a>
                             </li>
@@ -223,30 +223,30 @@
                 <div class="col-md-6">
                     <div class="fh5co-person text-center to-animate">
                         <figure>
-                            <img src="team/rakshit.jpg" alt="Image">
+                            <img src="team/sagar.jpg" alt="Image">
                         </figure>
-                        <h3>Rakshit Sai</h3>
+                        <h3>Sagar Lakhani</h3>
                         <span class="fh5co-position">Overall Coordinator</span>
                         <ul class="social social-circle">
                             <li>
-                                <a href="https://www.linkedin.com/in/sai-rakshit-063b1a143/" target="_blank">
+                                <a href="https://www.linkedin.com/in/sagar-lakhani/" target="_blank">
                                     <i class="icon-linkedin"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.facebook.com/rakshit.sai.5" target="_blank">
+                                <a href="https://www.facebook.com/slakhani12" target="_blank">
                                     <i class="icon-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="mailto:iit2016126@iiita.ac.in">
+                                <a href="mailto:icm2017003@iiita.ac.in">
                                     <i class="icon-envelope"></i>
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <!-- <div class="col-md-3">
+                 <!-- <div class="col-md-3">
                     <div class="fh5co-person text-center to-animate">
                         <figure>
                             <img src="images/speakers/ranjitSir.jpg" alt="Image">
@@ -273,8 +273,8 @@
                     </div>
                 </div>
             </div>
-        </div> -->
-</section>
+        </div>  -->
+</div></section>
 <section id="fh5co-about" data-section="about">
     <div class="container-fluid" style="margin-top: 40px">
         <div class="row">
@@ -288,75 +288,47 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
-                        <img src="team/praphull.jpg" alt="Image">
+                        <img src="team/yogesh.jpg" alt="Image">
                     </figure>
-                    <h3>Praphull Mishra</h3>
+                    <h3>Yogesh Manwani</h3>
                     <span class="fh5co-position">Head, Events Management</span>
                     <ul class="social social-circle">
                         <li>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/yogesh-manwani-0932b6162/">
                                 <i class="icon-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://www.facebook.com/yogesh.manwani1">
                                 <i class="icon-facebook"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:iwm2016005@iiita.ac.in">
+                            <a href="mailto:iit2017072@iiita.ac.in">
                                 <i class="icon-envelope"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
-            
-            
-            <div class="col-md-3">
-                <div class="fh5co-person text-center to-animate">
-                    <figure>
-                        <img src="team/jhawar.jpg" alt="Image">
-                    </figure>
-                    <h3>Pranav Jhawar</h3>
-                    <span class="fh5co-position">Executive, Events Management</span>
-                    <ul class="social social-circle">
-                        <li>
-                            <a href="www.linkedin.com/in/pranav-jhawar-b09729161">
-                                <i class="icon-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="www.facebook.com/pranav.jhawar.75">
-                                <i class="icon-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:iit2017141@iiita.ac.in">
-                                <i class="icon-envelope"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
                         <img src="team/malu.jpg" alt="Image">
                     </figure>
                     <h3>Tanmay Malu</h3>
-                    <span class="fh5co-position">Executive, Events Management</span>
+                    <span class="fh5co-position">Head, Events Management</span>
                     <ul class="social social-circle">
                         <li>
-                            <a href="https://in.linkedin.com/in/tanmay-malu-a46746161">
+                            <a href="https://www.linkedin.com/in/tanmay-malu-a46746161/">
                                 <i class="icon-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href=" https://www.facebook.com/tanmay.malu">
+                            <a href="https://www.facebook.com/tanmay.malu">
                                 <i class="icon-facebook"></i>
                             </a>
                         </li>
@@ -368,90 +340,146 @@
                     </ul>
                 </div>
             </div>
-             <div class="col-md-3">
-            <div class="fh5co-person text-center to-animate">
-                <figure>
-                    <img src="team/yogesh.jpg" alt="Image">
-                </figure>
-                <h3>Yogesh Manwani</h3>
-                <span class="fh5co-position">Executive, Events Management</span>
-                <p></p>
-                <ul class="social social-circle">
-                    <li>
-                        <a href="https://www.linkedin.com/in/yogesh-manwani-0932b6162/">
-                            <i class="icon-linkedin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/yogesh.manwani1">
-                            <i class="icon-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:iiiit2017072@iiita.ac.in">
-                            <i class="icon-envelope"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
         </div>
-        </div>
-    </div>
-    <div class="row" id ="eventsmedia">
-        
-        <div class="col-md-4">
-            <div class="fh5co-person text-center to-animate">
-                <figure>
-                    <img src="team/kush.jpg" alt="Image">
-                </figure>
-                <h3>Kush Mishra</h3>
-                <span class="fh5co-position">Executive, Events Management</span>
-                <p></p>
-                <ul class="social social-circle">
-                    <li>
-                        <a href="https://www.linkedin.com/in/kush-mishra-433370151">
-                            <i class="icon-linkedin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/kush.mishra.969">
-                        
-                            <i class="icon-facebook"></i>
+
+        <div class="row" style="margin-top: 80px">
+            <div class="col-md-4">
+                <div class="fh5co-person text-center to-animate">
+                    <figure>
+                        <img src="team/aayush.jpg" alt="Image">
+                    </figure>
+                    <h3>Aayush Raj</h3>
+                    <span class="fh5co-position">Executive, Events Management</span>
+                    <ul class="social social-circle">
+                        <li>
+                            <a href="#">
+                                <i class="icon-linkedin"></i>
                             </a>
-                    </li>
-                    <li>
-                        <a href="mailto:iec2017083@iiita.ac.in">
-                            <i class="icon-envelope"></i>
-                        </a>
-                    </li>
-                </ul>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100027611110803">
+                                <i class="icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:iec2018022@iiita.ac.in">
+                                <i class="icon-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="fh5co-person text-center to-animate">
+
+            <div class="col-md-4">
+                <div class="fh5co-person text-center to-animate">
                 <figure>
-                    <img src="team/adesh.jpg" alt="Image">
+                    <img src="team/naidu.jpg" alt="Image">
                 </figure>
-                <h3>Adesh Shukla</h3>
+                <h3>Rahul Naidu</h3>
                 <span class="fh5co-position">Executive, Events Management</span>
                 <p></p>
                 <ul class="social social-circle">
                     <li>
-                        <a href="https://www.linkedin.com/in/madhav-gupta-393b64161/">
+                        <a href="#">
                             <i class="icon-linkedin"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://m.facebook.com/adesh.shukla.790">
+                        <a href="https://www.facebook.com/agathamudi.rahulnaidu">
                             <i class="icon-facebook"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="iec2017088@iiita.ac.in">
+                        <a href="mailto:iit2018192@iiita.ac.in">
                             <i class="icon-envelope"></i>
                         </a>
                     </li>
                 </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="fh5co-person text-center to-animate">
+                <figure>
+                    <img src="team/akshit.jpg" alt="Image">
+                </figure>
+                <h3>Akshit Agarwal</h3>
+                <span class="fh5co-position">Executive, Events Management</span>
+                <p></p>
+                <ul class="social social-circle">
+                    <li>
+                        <a href="#">
+                            <i class="icon-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/akshit.agarwal.908579">
+                            <i class="icon-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:iit2018166@iiita.ac.in">
+                            <i class="icon-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 80px">
+            <div class="col-md-6">
+                <div class="fh5co-person text-center to-animate">
+                <figure>
+                    <img src="team/ankit.jpg" alt="Image">
+                </figure>
+                <h3>Ankit Das</h3>
+                <span class="fh5co-position">Executive, Events Management</span>
+                <p></p>
+                <ul class="social social-circle">
+                    <li>
+                        <a href="#">
+                            <i class="icon-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100007406521673">
+                            <i class="icon-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:iit2018020@iiita.ac.in">
+                            <i class="icon-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="fh5co-person text-center to-animate">
+                <figure>
+                    <img src="team/sushant.jpg" alt="Image">
+                </figure>
+                <h3>Sushant Singh</h3>
+                <span class="fh5co-position">Executive, Events Management</span>
+                <p></p>
+                <ul class="social social-circle">
+                    <li>
+                        <a href="#">
+                            <i class="icon-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100005158026718">
+                            <i class="icon-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:iit2018171@iiita.ac.in">
+                            <i class="icon-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -469,26 +497,80 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
-                        <img src="team/shreyansh.jpg" alt="Image">
+                        <img src="team/pratham2.jpeg" alt="Image">
                     </figure>
-                    <h3>Shreyansh Dwivedi</h3>
+                    <h3>Pratham Prakash Gupta</h3>
                     <span class="fh5co-position">Head, Corporate Relations</span>
                     <ul class="social social-circle">
                         <li>
-                            <a href="https://www.linkedin.com/in/shreyansh-dwivedi">
+                            <a href="https://www.linkedin.com/in/prathamprakash29/">
                                 <i class="icon-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/shreyansh.dwivedi.18">
+                            <a href="https://www.facebook.com/prathamprakash29">
                                 <i class="icon-facebook"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:iwm2016501@iiita.ac.in">
+                            <a href="mailto:ihm2017003@iiita.ac.in">
+                                <i class="icon-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="fh5co-person text-center to-animate">
+                    <figure>
+                        <img src="team/dixit.jpg" alt="Image">
+                    </figure>
+                    <h3>Harshit Dixit</h3>
+                    <span class="fh5co-position">Head, Corporate Relations</span>
+                    <ul class="social social-circle">
+                        <li>
+                            <a href="https://www.linkedin.com/in/harshit-dixit-120845142/">
+                                <i class="icon-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/harshit.dixit.165">
+                                <i class="icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:lit2017034@iiita.ac.in">
+                                <i class="icon-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 80px">
+            <div class="col-md-4">
+                <div class="fh5co-person text-center to-animate">
+                    <figure>
+                        <img src="team/ishan.jpg" alt="Image">
+                    </figure>
+                    <h3>Ishan Agarwal</h3>
+                    <span class="fh5co-position">Executive, Corporate Relations</span>
+                    <ul class="social social-circle">
+                        <li>
+                            <a href="#">
+                                <i class="icon-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/ishan.agrawal.7524">
+                                <i class="icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:iit2018081@iiita.ac.in">
                                 <i class="icon-envelope"></i>
                             </a>
                         </li>
@@ -498,61 +580,63 @@
             <div class="col-md-4">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
-                        <img src="team/sagar.jpg" alt="Image">
+                        <img src="team/raviteja.jpg" alt="Image">
                     </figure>
-                    <h3>Sagar Lakhani</h3>
+                    <h3>Raviteja Kampati</h3>
                     <span class="fh5co-position">Executive, Corporate Relations</span>
                     <ul class="social social-circle">
                         <li>
-                            <a href="https://www.linkedin.com/in/sagar-lakhani">
+                            <a href="#">
                                 <i class="icon-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/slakhani12">
+                            <a href="https://www.facebook.com/raviteja.kampati">
                                 <i class="icon-facebook"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:icm2017003@iiita.ac.in">
+                            <a href="#">
                                 <i class="icon-envelope"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> 
             <div class="col-md-4">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
-                        <img src="team/madhav.jpg" alt="Image">
+                        <img src="team/aryan.jpg" alt="Image">
                     </figure>
-                    <h3>Madhav Gupta</h3>
+                    <h3>Aryan Kejriwal</h3>
                     <span class="fh5co-position">Executive, Corporate Relations</span>
                     <ul class="social social-circle">
                         <li>
-                            <a href="https://www.linkedin.com/in/madhav-gupta-393b64161/">
+                            <a href="#">
                                 <i class="icon-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/madhav.gupta.547389">
+                            <a href="https://www.facebook.com/aryan.kejriwal.9">
                                 <i class="icon-facebook"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:iit2017031@iiita.ac.in">
+                            <a href="#">
                                 <i class="icon-envelope"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <!-- <div class="col-md-3">
+        </div>
+        <div class="row" style="margin-top: 80px">
+             <div class="col-md-6">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
-                        <img src="team/aadil.jpg" alt="Image">
+                        <img src="team/siva.jpg" alt="Image">
                     </figure>
-                    <h3>Aadil Beg</h3>
+                    <h3>Siva Sai Reddy Ojam</h3>
                     <span class="fh5co-position">Executive, Corporate Relations</span>
                     <ul class="social social-circle">
                         <li>
@@ -561,7 +645,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://www.facebook.com/ojamsiva.sai.1">
                                 <i class="icon-facebook"></i>
                             </a>
                         </li>
@@ -572,7 +656,33 @@
                         </li>
                     </ul>
                 </div>
-            </div> -->
+            </div>
+            <div class="col-md-6">
+                <div class="fh5co-person text-center to-animate">
+                    <figure>
+                        <img src="team/keshab.jpg" alt="Image">
+                    </figure>
+                    <h3>Keshab Agarwal</h3>
+                    <span class="fh5co-position">Executive, Corporate Relations</span>
+                    <ul class="social social-circle">
+                        <li>
+                            <a href="#">
+                                <i class="icon-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/keshab.agrawal.58">
+                                <i class="icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -589,68 +699,42 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
-                        <img src="team/madhur2.jpg" alt="Image">
+                        <img src="team/shekhawat.jpg" alt="Image">
                     </figure>
-                    <h3>Madhur Gupta</h3>
-                    <span class="fh5co-position">Head, Public Relations & Marketing</span>
+                    <h3>Rohan Shekhawat</h3>
+                    <span class="fh5co-position">Head, Public Relations &amp; Marketing</span>
                     <ul class="social social-circle">
                         <li>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/rohan-shekhawat-47a8b9159/">
                                 <i class="icon-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/madhurguptaiiita">
+                            <a href="https://www.facebook.com/shekhawatrohan23">
                                 <i class="icon-facebook"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:iit2016083@iiita.ac.in">
+                            <a href="mailto:iec2017503@iiita.ac.in">
                                 <i class="icon-envelope"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="fh5co-person text-center to-animate">
-                    <figure>
-                        <img src="team/pradeep.jpg" alt="Image">
-                    </figure>
-                    <h3>Pradeep Shakya</h3>
-                    <span class="fh5co-position">Head, Public Relations & Marketing</span>
-                    <ul class="social social-circle">
-                        <li>
-                            <a href="#">
-                                <i class="icon-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="icon-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="icon-envelope"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
                         <img src="team/mohitg.jpg" alt="Image">
                     </figure>
                     <h3>Mohit Gupta</h3>
-                    <span class="fh5co-position">Executive, Public Relations & Marketing</span>
+                    <span class="fh5co-position">Head, Public Relations &amp; Marketing</span>
                     <ul class="social social-circle">
                         <li>
-                            <a href="https://www.linkedin.com/in/mohit-gupta-703a7715a/">
+                            <a href="#">
                                 <i class="icon-linkedin"></i>
                             </a>
                         </li>
@@ -667,55 +751,133 @@
                     </ul>
                 </div>
             </div>
-        <div class="col-md-3">
+        <div class="row">
+            <div class="col-md-4" style="margin-top: 80px">
+                <div class="fh5co-person text-center to-animate">
+                    <figure>
+                        <img src="team/abhishek.jpg" alt="Image">
+                    </figure>
+                    <h3>Abhishek Kumar Mishra</h3>
+                    <span class="fh5co-position">Executive, Public Relations &amp; Marketing</span>
+                    <ul class="social social-circle">
+                        <li>
+                            <a href="#">
+                                <i class="icon-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100005016060283">
+                                <i class="icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:iit2018026@iiita.ac.in">
+                                <i class="icon-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        <div class="col-md-4" style="margin-top: 80px">
             <div class="fh5co-person text-center to-animate">
                 <figure>
-                    <img src="team/pratham2.jpeg" alt="Image">
+                    <img src="team/kanishk.jpg" alt="Image">
                 </figure>
-                <h3>Pratham Prakash</h3>
-                <span class="fh5co-position">Executive, Public Relations & Marketing</span>
+                <h3>Kanishk Rohila</h3>
+                <span class="fh5co-position">Executive, Public Relations &amp; Marketing</span>
                 <ul class="social social-circle">
                     <li>
-                        <a href="https://www.linkedin.com/in/prathamprakash29">
+                        <a href="#">
                             <i class="icon-linkedin"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/prathamprakash29">
+                        <a href="https://www.facebook.com/rohilakanishk93">
                             <i class="icon-facebook"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:ihm2017003@iiita.ac.in">
+                        <a href="mailto:iit2018012@iiita.ac.in">
                             <i class="icon-envelope"></i>
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
-        </div>
-    </div>
-    <div class="row" id="public">
-        <div class="col-md-3">
+        <div class="col-md-4" style="margin-top: 80px">
             <div class="fh5co-person text-center to-animate">
                 <figure>
-                    <img src="team/shekhawat.jpg" alt="Image">
+                    <img src="team/sanjay.jpg" alt="Image">
                 </figure>
-                <h3>Rohan Shekhawat</h3>
-                <span class="fh5co-position">Executive, Public Relations & Marketing</span>
+                <h3>Sanjay Swami</h3>
+                <span class="fh5co-position">Executive, Public Relations &amp; Marketing</span>
                 <ul class="social social-circle">
                     <li>
-                        <a href="https://www.linkedin.com/in/rohan-shekhawat-47a8b9159">
+                        <a href="#">
                             <i class="icon-linkedin"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/shekhawatrohan23">
+                        <a href="https://www.facebook.com/sanjay.swami.73594479">
                             <i class="icon-facebook"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:iec2017503@iiita.ac.in">
+                        <a href="mailto:iit2018014@iiita.ac.in">
+                            <i class="icon-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 80px">
+        <div class="col-md-6">
+            <div class="fh5co-person text-center to-animate">
+                <figure>
+                    <img src="team/kushagr.jpg" alt="Image">
+                </figure>
+                <h3>Kushagr Garg</h3>
+                <span class="fh5co-position">Executive, Public Relations &amp; Marketing</span>
+                <ul class="social social-circle">
+                    <li>
+                        <a href="#">
+                            <i class="icon-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100006823426015">
+                            <i class="icon-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:iit2018107@iiita.ac.in">
+                            <i class="icon-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="fh5co-person text-center to-animate">
+                <figure>
+                    <img src="team/shivam.jpg" alt="Image">
+                </figure>
+                <h3>Shivam Kumar</h3>
+                <span class="fh5co-position">Executive, Public Relations &amp; Marketing</span>
+                <ul class="social social-circle">
+                    <li>
+                        <a href="#">
+                            <i class="icon-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100013635911509">
+                            <i class="icon-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:iec2018078@iiita.ac.in">
                             <i class="icon-envelope"></i>
                         </a>
                     </li>
@@ -737,68 +899,16 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3">
-                <div class="fh5co-person text-center to-animate">
-                    <figure>
-                        <img src="team/bhanu.jpg" alt="Image">
-                    </figure>
-                    <h3>Bhanu Bhandari</h3>
-                    <span class="fh5co-position">Head, Media Management</span>
-                    <ul class="social social-circle">
-                        <li>
-                            <a href="https://www.linkedin.com/in/bhanubhandari99/">
-                                <i class="icon-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/falafelraider">
-                                <i class="icon-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:iec2016027@iiita.ac.in">
-                                <i class="icon-envelope"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="fh5co-person text-center to-animate">
-                    <figure>
-                        <img src="team/animesh.jpg" alt="Image">
-                    </figure>
-                    <h3>Animesh Jha</h3>
-                    <span class="fh5co-position">Executive, Media Management</span>
-                    <ul class="social social-circle">
-                        <li>
-                            <a href="https://www.linkedin.com/in/animesh-jha-789663ba">
-                                <i class="icon-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://facebook.com/animesh.jha0906">
-                                <i class="icon-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:icm2017001@iiita.ac.in">
-                                <i class="icon-envelope"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-3" >
+            <div class="col-md-6">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
                         <img src="team/ja.jpg" alt="Image">
                     </figure>
                     <h3>Jasmeet Kaur</h3>
-                    <span class="fh5co-position">Executive, Media Management</span>
+                    <span class="fh5co-position">Head, Media Management</span>
                     <ul class="social social-circle">
                         <li>
-                            <a href="https://www.linkedin.com/in/jasmeet-kaur-404b65161/">
+                            <a href="#">
                                 <i class="icon-linkedin"></i>
                             </a>
                         </li>
@@ -815,26 +925,278 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
-                        <img src="team/aadya.jpg" alt="Image">
+                        <img src="team/ganesh.jpg" alt="Image">
                     </figure>
-                    <h3>Aadya Mishra</h3>
-                    <span class="fh5co-position">Executive, Media Management</span>
+                    <h3>Ganesh Ayyappan</h3>
+                    <span class="fh5co-position">Head, Media Management</span>
                     <ul class="social social-circle">
                         <li>
-                            <a href="https://www.linkedin.com/in/aadya-mishra-028b0b159">
+                            <a href="https://www.linkedin.com/in/ganesh-ayyappan/">
                                 <i class="icon-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/jasmeet-kaur-404b65161/">
+                            <a href="https://www.facebook.com/ganeshayyappan.ayyappan">
                                 <i class="icon-facebook"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:iit2017016@iiita.ac.in">
+                            <a href="mailto:iec2017074@iiita.ac.in">
+                                <i class="icon-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        <
+            <div class="col-md-3" style="margin-top: 80px">
+                <div class="fh5co-person text-center to-animate">
+                    <figure>
+                        <img src="team/prateek.jpg" alt="Image">
+                    </figure>
+                    <h3>Prateek Mishra</h3>
+                    <span class="fh5co-position">Executive, Media Management</span>
+                    <ul class="social social-circle">
+                        <li>
+                            <a href="#">
+                                <i class="icon-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/mishraprateekaries">
+                                <i class="icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:iit2018199@iiita.ac.in">
+                                <i class="icon-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3" style="margin-top: 80px">
+                <div class="fh5co-person text-center to-animate">
+                    <figure>
+                        <img src="team/kingsuk.jpg" alt="Image">
+                    </figure>
+                    <h3>Kingsuk Bag</h3>
+                    <span class="fh5co-position">Executive, Media Management</span>
+                    <ul class="social social-circle">
+                        <li>
+                            <a href="#">
+                                <i class="icon-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/kingsukbag.bag">
+                                <i class="icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:iec2018001@iiita.ac.in">
+                                <i class="icon-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3" style="margin-top: 80px">
+                <div class="fh5co-person text-center to-animate">
+                    <figure>
+                        <img src="team/mohanty.jpg" alt="Image">
+                    </figure>
+                    <h3>Ananya Mohanty</h3>
+                    <span class="fh5co-position">Executive, Media Management</span>
+                    <ul class="social social-circle">
+                        <li>
+                            <a href="#">
+                                <i class="icon-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/ananyaparajita">
+                                <i class="icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:iit2018045@iiita.ac.in">
+                                <i class="icon-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3" style="margin-top: 50px">
+                <div class="fh5co-person text-center to-animate">
+                    <figure>
+                        <img src="team/raunak.jpg" alt="Image">
+                    </figure>
+                    <h3>Raunak Rathore</h3>
+                    <span class="fh5co-position">Executive, Media Management</span>
+                    <ul class="social social-circle">
+                        <li>
+                            <a href="#">
+                                <i class="icon-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/raunak.rathour.37">
+                                <i class="icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:iit2018196@iiita.ac.in">
+                                <i class="icon-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="fh5co-about" data-section="about">
+    <div class="container-fluid" style="margin-top: 40px">
+        <div class="row">
+            <div class="col-md-12 section-heading text-center">
+                <h2 class="to-animate">Design</h2>
+                <div class="row">
+                    <!-- <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                        <h3>Core Team of IIIC</h3>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="fh5co-person text-center to-animate">
+                    <figure>
+                    <img src="team/ajay.jpg" alt="Image">
+                    </figure>
+                    <h3>Ajay Kudal</h3>
+                    <span class="fh5co-position">Head, Design</span>
+                    <ul class="social social-circle">
+                        <li>
+                            <a href="https://www.linkedin.com/in/kudalajay/">
+                                <i class="icon-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/kudal.ajay">
+                                <i class="icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:iec2017073@iiiita.ac.in">
+                                <i class="icon-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="fh5co-person text-center to-animate">
+                    <figure>
+                        <img src="team/sahibdeep.jpg" alt="Image">
+                    </figure>
+                    <h3>Sahibdeep Singh</h3>
+                    <span class="fh5co-position">Head, Design</span>
+                    <ul class="social social-circle">
+                        <li>
+                            <a href="https://www.linkedin.com/in/sahibdeep-singh-9525b1158/">
+                                <i class="icon-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/sahibdeept">
+                                <i class="icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:iit2017037@iiiita.ac.in">
+                                <i class="icon-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-md-4" style="margin-top: 80px">
+                <div class="fh5co-person text-center to-animate">
+                    <figure>
+                        <img src="team/ankush.jpg" alt="Image">
+                    </figure>
+                    <h3>Ankush Panday</h3>
+                    <span class="fh5co-position">Head, Design</span>
+                    <ul class="social social-circle">
+                        <li>
+                            <a href="#">
+                                <i class="icon-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/ankush.pandey.58">
+                                <i class="icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:iec2018071@iiiita.ac.in">
+                                <i class="icon-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4" style="margin-top: 80px">
+                <div class="fh5co-person text-center to-animate">
+                    <figure>
+                        <img src="team/nikhilesh.jpg" alt="Image">
+                    </figure>
+                    <h3>Nikhilesh Kumar</h3>
+                    <span class="fh5co-position">Executive, Design</span>
+                    <ul class="social social-circle">
+                        <li>
+                            <a href="#">
+                                <i class="icon-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/nikhilesh.kr23">
+                                <i class="icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:iec2018061@iiita.ac.in">
+                                <i class="icon-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4" style="margin-top: 80px">
+                <div class="fh5co-person text-center to-animate">
+                    <figure>
+                        <img src="team/nitin.jpg" alt="Image">
+                    </figure>
+                    <h3>Nitin Madhukar</h3>
+                    <span class="fh5co-position">Executive, Design</span>
+                    <ul class="social social-circle">
+                        <li>
+                            <a href="#">
+                                <i class="icon-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/nitin.madhukar.37">
+                                <i class="icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:iec2018053@iiita.ac.in">
                                 <i class="icon-envelope"></i>
                             </a>
                         </li>
@@ -860,88 +1222,10 @@
             <div class="col-md-3">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
-                        <img src="team/siddhant.jpg" alt="Image">
-                    </figure> 
-                    <h3>Siddhant Srivastav</h3>
-                    <span class="fh5co-position">Head, Web Operations</span>
-                    <ul class="social social-circle">
-                        <li>
-                            <a href="#">
-                                <i class="icon-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="icon-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="icon-envelope"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="fh5co-person text-center to-animate">
-                    <figure>
-                        <img src="team/aswant.jpg" alt="Image">
-                    </figure>
-                    <h3>Aswanth K Anil</h3>
-                    <span class="fh5co-position">Head, Web Operations</span>
-                    <ul class="social social-circle">
-                        <li>
-                            <a href="#">
-                                <i class="icon-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="icon-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:iit2016105@iiiita.ac.in">
-                                <i class="icon-envelope"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="fh5co-person text-center to-animate">
-                    <figure>
-                        <img src="team/rudransh.jpg" alt="Image">
-                    </figure>
-                    <h3>Rudransh Gupta</h3>
-                    <span class="fh5co-position">Executive, Web Operations</span>
-                    <ul class="social social-circle">
-                        <li>
-                            <a href="https://www.linkedin.com/in/rudransh-gupta-2baba3161">
-                                <i class="icon-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://m.facebook.com/rudransh.gupta.161?refid=8">
-                                <i class="icon-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:iec2017022@iiita.ac.in">
-                                <i class="icon-envelope"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="fh5co-person text-center to-animate">
-                    <figure>
                         <img src="team/tanmay.jpg" alt="Image">
-                    </figure>
+                    </figure> 
                     <h3>Tanmay Mittal</h3>
-                    <span class="fh5co-position">Executive, Web Operations</span>
+                    <span class="fh5co-position">Head, Web Operations</span>
                     <ul class="social social-circle">
                         <li>
                             <a href="https://www.linkedin.com/in/tanmay-mittal-3784a8155/">
@@ -954,49 +1238,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#mailto:iec2017017@iiita.ac.in">
-                                <i class="icon-envelope"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="fh5co-about" data-section="about">
-    <div class="container-fluid" style="margin-top: 40px">
-        <div class="row">
-            <div class="col-md-12 section-heading text-center">
-                <h2 class="to-animate">Design</h2>
-                <div class="row">
-                    <!-- <div class="col-md-8 col-md-offset-2 subtext to-animate">
-                        <h3>Core Team of IIIC</h3>
-                    </div> -->
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="fh5co-person text-center to-animate">
-                    <figure>
-                        <img src="team/vinit.jpg" alt="Image">
-                    </figure>
-                    <h3>Vinit Mankar</h3>
-                    <span class="fh5co-position">Head, Design</span>
-                    <ul class="social social-circle">
-                        <li>
-                            <a href="#">
-                                <i class="icon-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="icon-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:iec2016066@iiiita.ac.in">
+                            <a href="mailto:iec2017017@iiita.ac.in">
                                 <i class="icon-envelope"></i>
                             </a>
                         </li>
@@ -1006,23 +1248,23 @@
             <div class="col-md-3">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
-                        <img src="team/sidsam.jpg" alt="Image">
+                        <img src="team/palak.jpg" alt="Image">
                     </figure>
-                    <h3>Siddharth Simharaju</h3>
-                    <span class="fh5co-position">Head, Design</span>
+                    <h3>Palak Mittal</h3>
+                    <span class="fh5co-position">Executive, Web Operations</span>
                     <ul class="social social-circle">
                         <li>
-                            <a href="https://www.facebook.com/siddharth.simharaju?lst=100005337458697%3A100000516890821%3A1545936710">
+                            <a href="https://www.linkedin.com/in/palak-mittal-abb848177/">
                                 <i class="icon-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://www.facebook.com/palak.mittal.9231">
                                 <i class="icon-facebook"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:iec2016066@iiiita.ac.in">
+                            <a href="mailto:iit2018117@iiiita.ac.in">
                                 <i class="icon-envelope"></i>
                             </a>
                         </li>
@@ -1032,23 +1274,23 @@
             <div class="col-md-3">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
-                        <img src="team/ajay.jpg" alt="Image">
+                        <img src="team/mudit.jpg" alt="Image">
                     </figure>
-                    <h3>Ajay Kudal</h3>
-                    <span class="fh5co-position">Executive, Design</span>
+                    <h3>Mudit Goyal</h3>
+                    <span class="fh5co-position">Executive, Web Operations</span>
                     <ul class="social social-circle">
                         <li>
-                            <a href="https://www.linkedin.com/in/ajay-kudal-ba874b161/">
+                            <a href="https://www.linkedin.com/in/mudit-goyal-3a4890180/">
                                 <i class="icon-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/ajay.kudal.395">
+                            <a href="https://www.facebook.com/muditgoyal2908">
                                 <i class="icon-facebook"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:iec2017073@iiita.ac.in">
+                            <a href="mailto:iit2018132@iiita.ac.in">
                                 <i class="icon-envelope"></i>
                             </a>
                         </li>
@@ -1058,23 +1300,23 @@
             <div class="col-md-3">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
-                        <img src="team/sahibdeep.jpg" alt="Image">
+                        <img src="team/javed.jpg" alt="Image">
                     </figure>
-                    <h3>Sahibdeep Singh</h3>
-                    <span class="fh5co-position">Executive, Design</span>
+                    <h3>Javed Ali</h3>
+                    <span class="fh5co-position">Executive, Web Operations</span>
                     <ul class="social social-circle">
                         <li>
-                            <a href="https://www.linkedin.com/in/sahibdeep-singh-9525b1158/">
+                            <a href="https://www.linkedin.com/in/javed-ali-0a2617177/">
                                 <i class="icon-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/sahibdeept">
+                            <a href="https://www.facebook.com/Javed2302?ref=br_rs">
                                 <i class="icon-facebook"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:iit2017037@iiita.ac.in">
+                            <a href="mailto:iit2018501@iiita.ac.in">
                                 <i class="icon-envelope"></i>
                             </a>
                         </li>
