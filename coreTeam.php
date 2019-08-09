@@ -346,7 +346,7 @@
             <div class="col-md-4">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
-                        <img src="team/aayush.jpg" alt="Image">
+                        <img src="team/ayush.jpg" alt="Image">
                     </figure>
                     <h3>Aayush Raj</h3>
                     <span class="fh5co-position">Executive, Events Management</span>
@@ -400,7 +400,7 @@
             <div class="col-md-4">
                 <div class="fh5co-person text-center to-animate">
                 <figure>
-                    <img src="team/akshit.jpg" alt="Image">
+                    <img src="team/aksht.jpg" alt="Image">
                 </figure>
                 <h3>Akshit Agarwal</h3>
                 <span class="fh5co-position">Executive, Events Management</span>
@@ -554,7 +554,7 @@
             <div class="col-md-4">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
-                        <img src="team/ishan.jpg" alt="Image">
+                        <img src="team/ishn.jpg" alt="Image">
                     </figure>
                     <h3>Ishan Agarwal</h3>
                     <span class="fh5co-position">Executive, Corporate Relations</span>
@@ -634,7 +634,7 @@
              <div class="col-md-6">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
-                        <img src="team/siva.jpg" alt="Image">
+                        <img src="team/sivao.jpg" alt="Image">
                     </figure>
                     <h3>Siva Sai Reddy Ojam</h3>
                     <span class="fh5co-position">Executive, Corporate Relations</span>
@@ -1131,7 +1131,7 @@
                         <img src="team/ankush.jpg" alt="Image">
                     </figure>
                     <h3>Ankush Panday</h3>
-                    <span class="fh5co-position">Head, Design</span>
+                    <span class="fh5co-position">Executive, Design</span>
                     <ul class="social social-circle">
                         <li>
                             <a href="#">
@@ -1248,7 +1248,7 @@
             <div class="col-md-3">
                 <div class="fh5co-person text-center to-animate">
                     <figure>
-                        <img src="team/palak.jpg" alt="Image">
+                        <img src="team/palk.jpg" alt="Image">
                     </figure>
                     <h3>Palak Mittal</h3>
                     <span class="fh5co-position">Executive, Web Operations</span>
