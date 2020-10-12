@@ -126,6 +126,7 @@
 		            <li class="active"><a href="#" id="home" data-nav-section="home"><span>Home</span></a></li>
 					<li><a href="#" id="why"><span>Why IIIC?<span></a></li>
 					<li><a href="#" id="events"><span>Events</span></a></li>
+					<li><a href="#" id="hackathon"><span>Hackathon</span></a></li>
 					<li><a href="#" id="apply"><span>Apply</span></a></li>
 					<li><a href="#" id="gap" ><span>Got A Problem</span></a></li>		            
 					<li><a href="#" id="pdc" ><span>Product Dev</span></a></li>
@@ -190,6 +191,9 @@ document.getElementById("apply").onclick = function () {
 };
 document.getElementById("home").onclick = function () {
     location.href = "index.php";
+};
+document.getElementById("hackathon").onclick = function () {
+    location.href = "hackathon.php";
 };
 document.getElementById("gap").onclick = function () {
     location.href = "gotaproblem.php";
